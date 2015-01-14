@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Order by Click</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="SortCtrl" ng-init="sortCriteria='Age'">
+<div >
+    <table>
+        <tr>
+            <!--<td  ng-click="Fun(data)">{{data.name}}.....................{{data.age}}</td>-->
+            <td ng-repeat="data in ColumnName" ng-click="Fun($index)">{{data}}</td>
+        </tr>
+    </table>
+</div>
+
+    <div >
+        <table>
+            <tr ng-repeat="data in  myList | orderBy: sortCriteria " >
+                <!--<td  ng-click="Fun(data)">{{data.name}}.....................{{data.age}}</td>-->
+                <td  ng-click="Fun(data)">{{data.Name}}{{data.Age}}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
