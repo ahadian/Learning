@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ng-switch practice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller ="SwitchCtrl">{{name}}.{{Persons[0].Sex}}
+<div ng-switch on="Persons[0].Sex">
+    <div ng-switch-when="Male">
+        {{Persons[0].Sex}}
+    </div>
+</div>
+--------------------------
+<div>
+    <table>
+        <tr ng-repeat="p in Persons" ng-switch on="p.Sex">
+            <td >{{p.Name}}</td>
+            <td ng-switch-when="Male">{{p.Age}}</td>
+            <td ng-switch-when="Female">Stop Asking</td>
+            <td >{{p.Sex}}</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
