@@ -1,0 +1,6 @@
+D:\work\Month2Month\January 15\SELISEOJexp\SELISEOJexp\bin\Debug\SELISEOJexp.exe.config
+D:\work\Month2Month\January 15\SELISEOJexp\SELISEOJexp\bin\Debug\SELISEOJexp.exe
+D:\work\Month2Month\January 15\SELISEOJexp\SELISEOJexp\bin\Debug\SELISEOJexp.pdb
+D:\work\Month2Month\January 15\SELISEOJexp\SELISEOJexp\obj\Debug\SELISEOJexp.csprojResolveAssemblyReference.cache
+D:\work\Month2Month\January 15\SELISEOJexp\SELISEOJexp\obj\Debug\SELISEOJexp.exe
+D:\work\Month2Month\January 15\SELISEOJexp\SELISEOJexp\obj\Debug\SELISEOJexp.pdb
