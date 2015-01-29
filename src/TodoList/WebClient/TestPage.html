@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
+<head>
+    <title>Our Todo List</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="Scripts/script/vendor/angularJS/angular.min.js"></script>
+    <script src="Scripts/script/vendor/angularJS/angular-resource.min.js"></script>
+    <script src="Scripts/script/vendor/angularJS/angular-route.min.js"></script>
+    <script src="Scripts/script/app/app.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div>
+            <strong style="padding: 20px;font-size: 150%">Add a Task</strong><button type="button" class="btn btn-success">+</button>
+        </div>
+        <div class="col-sm-7" style="padding:20px">
+            <input type="text" class="form-control" id="TodoDetails" placeholder="Search">
+        </div>
+        <div ng-view>
+            <br/><br />-------------------------------------------------------------------------------------------------<br /><br />
+            <div>
+                <form class="form-horizontal">
+                    <div class="form-group"></div>
+                    <div class="form-group">
+                        <label for="TodoDetails" class="col-sm-2 control-label">Task Details</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="TodoDetails" placeholder="Your task details goes here.(Max 400 Characters)">
+                        </div>
+                    </div>
+                    <fieldset disabled>
+                        <div class="form-group">
+                            <label for="TodoDetails" class="col-sm-2 control-label">Task Details</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="TodoDetails" placeholder="You have reached character Limit!">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <label for="dateTime" class="col-sm-2 control-label">Add Schedule</label>
+                        <div class="col-sm-7">
+                            <input type="datetime-local" class="form-control" id="dateTime">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="priority" class="col-sm-2 control-label">Priority</label>
+                        <div class="col-sm-7">
+                            <input type="number" min="1" max="5" class="form-control" id="priority" placeholder="Priority of this task (Between 1 to 5)">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Add this Task</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <br /><br />-------------------------------------------------------------------------------------------------<br /><br />
+            <div class="col-sm-7" n>
+                <div>
+                    <table class="table table-striped table-hover table-bordered">
+                        <tr>
+                            <td>ID</td>
+                            <td>Task Details with lots of asdasdasdasdasdasd asd asd asdas asd asdas ad asd a</td>
+                            <td><input class="btn btn-success" type="button" value="View Details"></td>
+                            <td><input class="btn btn-success" type="button" value="Edit"></td>
+                            <td><input class="btn btn-success" type="button" value="Delete"></td>
+                        </tr>
+
+                        <!--<tr ng-repeat="data in  myList | orderBy: sortCriteria ">-->
+                        <!--<td ng-click="Fun(data)">{{data.Name}}{{data.Age}}</td>-->
+                        <!--</tr>-->
+                    </table>
+                </div>
+            </div>
+            <br /><br />-------------------------------------------------------------------------------------------------<br /><br />
+            <div class="col-sm-11">
+                <div>
+                    <div class="col-sm-12">
+                        <table class="table table-striped table-hover table-bordered">
+                            <tr>
+                                <td class="col-sm-1">ID</td>
+                                <td class="col-sm-5">Task Details</td>
+                                <td class="col-sm-1">Priority</td>
+                                <td class="col-sm-2">Time</td>
+                                <td class="col-sm-1">Status</td>
+                                <td class="col-sm-1">Edit</td>
+                                <td class="col-sm-1">Delete</td>
+
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-sm-12">
+                        <table class="table table-striped table-hover table-bordered">
+                            <tr>
+                                <td class="col-sm-1">ID</td>
+                                <td class="col-sm-5">Task Details</td>
+                                <td class="col-sm-1">Priority</td>
+                                <td class="col-sm-2">Time</td>
+                                <td class="col-sm-1">Status</td>
+                                <td class="col-sm-1">Edit</td>
+                                <td class="col-sm-1">Delete</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <br /><br />-------------------------------------------------------------------------------------------------<br /><br />
+            <div>
+                <form class="form-horizontal">
+                    <div class="form-group"></div>
+                    <div class="form-group">
+                        <label for="TodoDetails" class="col-sm-2 control-label">Task Details</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="TodoDetails" placeholder="Your task details goes here.(Max 400 Characters)">
+                        </div>
+                    </div>
+                    <fieldset disabled>
+                        <div class="form-group">
+                            <label for="TodoDetails" class="col-sm-2 control-label">Task Details</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" id="TodoDetails" placeholder="You have reached character Limit!">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <label for="dateTime" class="col-sm-2 control-label">Add Schedule</label>
+                        <div class="col-sm-7">
+                            <input type="datetime-local" class="form-control" id="dateTime">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="priority" class="col-sm-2 control-label">Priority</label>
+                        <div class="col-sm-7">
+                            <input type="number" min="1" max="5" class="form-control" id="priority" placeholder="Priority of this task (Between 1 to 5)">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Update</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <br /><br />-------------------------------------------------------------------------------------------------<br /><br />
+            <div class="col-sm-12">
+                <table class="table table-striped table-hover table-bordered">
+                    <tr>
+                        <td class="col-sm-1">ID</td>
+                        <td class="col-sm-11">@ID</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">Task Details</td>
+                        <td class="col-sm-11">@Task Details</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">Priority</td>
+                        <td class="col-sm-11">@Priority</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">Time</td>
+                        <td class="col-sm-11">@Time</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">Status</td>
+                        <td class="col-sm-11">@Status</td>
+                    </tr>
+                </table>
+            </div>
+            <br /><br />-------------------------------------------------------------------------------------------------<br /><br />
+        </div>
+
+    </div>
+    <div>
+        <input class="btn btn-success" type="button" value="Load Details View">
+        <input class="btn btn-success" type="button" value="Prev Page">
+        <input class="btn btn-success" type="button" value="Next Page">
+    </div>
+</body>
+</html>

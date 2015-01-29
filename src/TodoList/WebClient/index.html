@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
+<head>
+    <title>Our Todo List</title>
+    <!-- Latest compiled and minified CSS -->
+    
+
+    <!-- Optional theme -->
+    
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="Scripts/script/vendor/angularJS/angular.min.js"></script>
+    <script src="Scripts/script/vendor/angularJS/angular-resource.min.js"></script>
+    <script src="Scripts/script/vendor/angularJS/angular-route.min.js"></script>
+    <script src="Scripts/script/app/app.js"></script>
+</head>
+<body ng-controller="TopMostController">
+    <div class="row">
+        <div>
+            <strong style="padding: 20px;font-size: 150%">Add a Task</strong>
+            <a class="btn btn-success" type="button" href="/partials/AddTask.html">+</a>
+        </div>
+        <div ng-view>
+        </div>
+    </div>
+    <div>
+        <a class="btn btn-success" type="button" href="/partials/DetailView.html">Load Details View</a>
+        <input class="btn btn-success" type="button" value="Prev Page">
+        <input class="btn btn-success" type="button" value="Next Page">
+    </div>
+</body>
+</html>

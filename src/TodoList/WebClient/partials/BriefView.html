@@ -1,0 +1,26 @@
+﻿<div class="col-sm-12">
+    <div class="col-sm-7" style="padding:20px">
+        <input type="text" class="form-control" id="TodoDetails" placeholder="Search a Task" ng-model="searchText">
+    </div>
+    <div>
+        <table class="table table-striped table-hover table-bordered">
+            <tr ng-repeat="myTask in myTaskList">
+                <td class="col-sm-1" style="text-align:center">{{myTask.Id}}</td>
+                <td class="col-sm-8" style="text-align:center">{{myTask.Todo}}</td>
+                <td class="col-sm-1" style="text-align:center">
+                    <a class="btn btn-success" type="button" href="#/TaskInDetails" ng-click="invoke(1)">View Details</a>
+                </td>
+                <td class="col-sm-1" style="text-align:center">
+                    <a class="btn btn-success" type="button" href="/partials/EditTask.html">Edit</a>
+                </td>
+                <td class="col-sm-1" style="text-align:center">
+                    <a class="btn btn-success" type="button" href="https://www.google.com">Delete</a>
+                </td>
+            </tr>
+
+            <!--<tr ng-repeat="data in  myList | orderBy: sortCriteria ">-->
+            <!--<td ng-click="Fun(data)">{{data.Name}}{{data.Age}}</td>-->
+            <!--</tr>-->
+        </table>
+    </div>
+</div>

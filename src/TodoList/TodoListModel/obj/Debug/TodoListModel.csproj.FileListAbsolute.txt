@@ -1,0 +1,10 @@
+F:\Screancast\TodoList\TodoListModel\bin\Debug\TodoListModel.dll.config
+F:\Screancast\TodoList\TodoListModel\bin\Debug\TodoListModel.dll
+F:\Screancast\TodoList\TodoListModel\bin\Debug\TodoListModel.pdb
+F:\Screancast\TodoList\TodoListModel\bin\Debug\EntityFramework.dll
+F:\Screancast\TodoList\TodoListModel\bin\Debug\EntityFramework.SqlServer.dll
+F:\Screancast\TodoList\TodoListModel\bin\Debug\EntityFramework.xml
+F:\Screancast\TodoList\TodoListModel\bin\Debug\EntityFramework.SqlServer.xml
+F:\Screancast\TodoList\TodoListModel\obj\Debug\TodoListModel.dll
+F:\Screancast\TodoList\TodoListModel\obj\Debug\TodoListModel.pdb
+F:\Screancast\TodoList\TodoListModel\obj\Debug\TodoListModel.csprojResolveAssemblyReference.cache

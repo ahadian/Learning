@@ -1,0 +1,6 @@
+F:\Screancast\TodoList\WebClient\bin\WebClient.dll.config
+F:\Screancast\TodoList\WebClient\bin\WebClient.dll
+F:\Screancast\TodoList\WebClient\bin\WebClient.pdb
+F:\Screancast\TodoList\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+F:\Screancast\TodoList\WebClient\obj\Debug\WebClient.dll
+F:\Screancast\TodoList\WebClient\obj\Debug\WebClient.pdb
