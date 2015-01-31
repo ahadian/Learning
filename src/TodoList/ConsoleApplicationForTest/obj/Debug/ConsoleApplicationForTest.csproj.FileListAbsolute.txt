@@ -11,3 +11,16 @@ F:\Screancast\TodoList\ConsoleApplicationForTest\bin\Debug\EntityFramework.SqlSe
 F:\Screancast\TodoList\ConsoleApplicationForTest\obj\Debug\ConsoleApplicationForTest.csprojResolveAssemblyReference.cache
 F:\Screancast\TodoList\ConsoleApplicationForTest\obj\Debug\ConsoleApplicationForTest.exe
 F:\Screancast\TodoList\ConsoleApplicationForTest\obj\Debug\ConsoleApplicationForTest.pdb
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\App.config
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe.config
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.exe
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\ConsoleApplicationForTest.pdb
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\EntityFramework.dll
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\EntityFramework.SqlServer.dll
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\TodoListModel.dll
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\TodoListModel.pdb
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\EntityFramework.xml
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\bin\Debug\EntityFramework.SqlServer.xml
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\obj\Debug\ConsoleApplicationForTest.csprojResolveAssemblyReference.cache
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\obj\Debug\ConsoleApplicationForTest.exe
+F:\Git Repositories\src\TodoList\ConsoleApplicationForTest\obj\Debug\ConsoleApplicationForTest.pdb

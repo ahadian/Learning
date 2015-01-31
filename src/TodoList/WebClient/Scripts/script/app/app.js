@@ -39,34 +39,23 @@ thisApp
               function (response) {
                   if (response.IsSuccess == true) {
                       $scope.myTaskList[idx] = myTask;
-                      //console.log($scope.myTaskList[idx]);
                   } else {
                       alert(response.Message);
                   }
               });
       }
-      //disabled
       $scope.DateIsOk = function (tnd) {
-          console.log('HiHi re....');
           var timestamp = Date.parse(tnd);
           if (isNaN(timestamp) == false) {
-              //console.log('Here I am');
               if (new Date() >= new Date(tnd)) {
-                  //console.log('Returning false');
                   $scope.classdsbl = 'disabled';
-                  console.log('False Ase na kan????' + tnd + $scope.classdsbl);
-                  console.log( $scope.classdsbl);
                   return 'disabled';
               } else {
                   $scope.classdsbl = '';
-                  console.log('True Ase na kan????' + tnd + $scope.classdsbl);
-                  console.log( $scope.classdsbl);
                   return '';
               }
               
           } else {
-              console.log('False Ase na kan????' + tnd + $scope.classdsbl);
-              console.log( $scope.classdsbl);
               $scope.classdsbl = 'disabled';
               return 'disabled';
           }
@@ -95,7 +84,7 @@ thisApp
             function (response) {
                 if (response.IsSuccess == true) {
                     $scope.myTaskList[idx] = myTask;
-                    //console.log($scope.myTaskList[idx]);
+ 
                 } else {
                     alert(response.Message);
                 }
@@ -117,12 +106,14 @@ thisApp
       $scope.DetailViewData = ($scope.myTaskList[$scope.currentIndex - 1]);
   }])
 
-.controller('AddTaskCtrl', ['$scope', '$routeParams','myFactory', function ($scope, $routeParams,myFactory) {
-    $scope.Add = function() {
+.controller('AddTaskCtrl', ['$scope', '$routeParams', 'myFactory', '$location', function ($scope, $routeParams, myFactory, $location) {
+    $scope.Add = function () {
+        $scope.newTask.Status = 0;
         myFactory.save($scope.newTask,
                   function (response) {
                       if (response.IsSuccess == true) {
                           $scope.myTaskList.push($scope.newTask);
+                          $location.path('/');
                       } else {
                           alert(response.Message);
                       }
@@ -131,22 +122,17 @@ thisApp
     $scope.DateOk = function () {
         var timestamp = Date.parse($scope.newTask.TimeAndDate);
         if (isNaN(timestamp) == false) {
-            //console.log('Here I am');
             if (new Date() >= new Date($scope.newTask.TimeAndDate)) {
-                //console.log('Returning false');
                 return false;
             }
             return true;
 
         }
-        //console.log(new Date());
-        //console.log(new Date($scope.newTask.TimeAndDate));
-        //console.log(new Date() >= new Date($scope.newTask.TimeAndDate));
         return false;
     }
     }])
 
-  .controller('EditTaskCtrl', ['$scope', '$routeParams','myFactory', function ($scope, $routeParams,myFactory) {
+  .controller('EditTaskCtrl', ['$scope', '$routeParams', 'myFactory', '$location', function ($scope, $routeParams, myFactory, $location) {
       $scope.currentIndex = parseInt($routeParams.id);
       $scope.Task2Update = ($scope.myTaskList[$scope.currentIndex - 1]);
 
@@ -161,7 +147,6 @@ thisApp
 
 
       $scope.Update = function () {
-          console.log('HHS');
           $scope.Task2Update.Todo = $scope.updTodo;
           $scope.Task2Update.TimeAndDate = $scope.updTimeAndDate;
           $scope.Task2Update.Priority = $scope.updPriority;
@@ -169,6 +154,7 @@ thisApp
               function (response) {
               if (response.IsSuccess == true) {
                   $scope.myTaskList[$scope.currentIndex - 1] = $scope.Task2Update;
+                  $location.path('/');
               } else {
                   alert(response.Message);
               }
@@ -182,7 +168,6 @@ thisApp
             if (response.IsSuccess == true) {
                 $scope.myTaskList = response.Data;
                 $scope.Total_Page = Math.ceil($scope.myTaskList.length / $scope.Task_Per_Page);
-                console.log($scope.Total_Page);
             } else {
                 alert(response.Message);
             }
@@ -196,7 +181,6 @@ thisApp
         $scope.NextPage = function() {
             $scope.Low += 5;
             $scope.High += 5;
-            console.log('I came');
             $scope.Current_Page++;
         }
         $scope.PrevPage = function () {
@@ -204,6 +188,6 @@ thisApp
             $scope.High -= 5;
             $scope.Current_Page--;
         }
-        console.log(new Date());
+
     }
 ]);

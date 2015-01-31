@@ -7,6 +7,5 @@ F:\Screancast\TodoList\WebClient\obj\Debug\WebClient.pdb
 F:\Git Repositories\src\TodoList\WebClient\bin\WebClient.dll.config
 F:\Git Repositories\src\TodoList\WebClient\bin\WebClient.dll
 F:\Git Repositories\src\TodoList\WebClient\bin\WebClient.pdb
-F:\Git Repositories\src\TodoList\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
 F:\Git Repositories\src\TodoList\WebClient\obj\Debug\WebClient.dll
 F:\Git Repositories\src\TodoList\WebClient\obj\Debug\WebClient.pdb
