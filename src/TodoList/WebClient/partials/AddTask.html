@@ -26,12 +26,12 @@
                 <input type="number" min="1" max="5" class="form-control" placeholder="Priority should be in range (1 to 5)" ng-model="newTask.Priority">
             </div>
         </div>
-        <div class="form-group" ng-show="newTask.Todo.length>=0 && newTask.Todo.length<=Max_Char_Limit && newTask.Priority>=1 && newTask.Priority<=5">
+        <div class="form-group" ng-show="DateOk() && newTask.Todo.length>=0 && newTask.Todo.length<=Max_Char_Limit && newTask.Priority>=1 && newTask.Priority<=5">
             <div class="col-sm-offset-2 col-sm-10">
                 <button type="submit" class="btn btn-default" ng-click="Add()">Add This Task </button>
             </div>
         </div>
-        <fieldset disabled ng-hide="newTask.Todo.length>=0 && newTask.Todo.length<=Max_Char_Limit && newTask.Priority>=1 && newTask.Priority<=5">
+        <fieldset disabled ng-hide="DateOk() && newTask.Todo.length>=0 && newTask.Todo.length<=Max_Char_Limit && newTask.Priority>=1 && newTask.Priority<=5">
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
                     <button type="submit" class="btn btn-default">Add This Task</button>
