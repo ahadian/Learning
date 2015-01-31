@@ -28,7 +28,8 @@ namespace TodoListREST.Controllers
             try
             {
                 TodoListManager mgr = new TodoListManager();
-                mgr.Add(newTask);
+                if(newTask.Id==0)mgr.Add(newTask);
+                else mgr.Update(newTask);
                 return new ResponseModel();
             }
             catch (Exception e)
@@ -37,19 +38,6 @@ namespace TodoListREST.Controllers
             }   
         }
 
-        public ResponseModel Put(TodoListTable newTask)
-        {
-            try
-            {
-                TodoListManager mgr = new TodoListManager();
-                mgr.Update(newTask);
-                return new ResponseModel();
-            }
-            catch (Exception e)
-            {
-                return new ResponseModel(null, false, e.Message);
-            }
-        }
         public ResponseModel Delete(int id)
         {
             try

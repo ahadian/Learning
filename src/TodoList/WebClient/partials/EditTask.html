@@ -1,37 +1,42 @@
-﻿<div>
-    <form class="form-horizontal">
-        <div class="form-group"></div>
+﻿<a class="btn" type="button" href="#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Back to List</a>
+<div class="row" ng-init="colormagic='btn-success'">
+    <form class="form-horizontal ">
         <div class="form-group">
-            <label for="TodoDetails" class="col-sm-2 control-label">Task Details</label>
+            <label class="col-sm-2 control-label">Task Details</label>
             <div class="col-sm-7">
-                <input type="text" class="form-control" id="TodoDetails" placeholder="Your task details goes here.(Max 400 Characters)">
+                <input type="text" class="form-control" ng-model="updTodo">
+            </div>
+            <div class="col-sm-1">
+                <button type="button" class="btn btn-primary {{colormagic}} " disabled="disabled">
+                    {{updTodo.length}}/{{Max_Char_Limit}}
+                </button>
             </div>
         </div>
-        <fieldset disabled>
-            <div class="form-group">
-                <label for="TodoDetails" class="col-sm-2 control-label">Task Details</label>
-                <div class="col-sm-7">
-                    <input type="text" class="form-control" id="TodoDetails" placeholder="You have reached character Limit!">
-                </div>
-            </div>
-        </fieldset>
+        
         <div class="form-group">
-            <label for="dateTime" class="col-sm-2 control-label">Add Schedule</label>
+            <label class="col-sm-2 control-label">Add Schedule</label>
             <div class="col-sm-7">
-                <input type="datetime-local" class="form-control" id="dateTime">
+                <input type="datetime-local" class="form-control" ng-model="updTimeAndDate">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="priority" class="col-sm-2 control-label">Priority</label>
+            <label class="col-sm-2 control-label">Priority</label>
             <div class="col-sm-7">
-                <input type="number" min="1" max="5" class="form-control" id="priority" placeholder="Priority of this task (Between 1 to 5)">
+                <input type="number" min="1" max="5" class="form-control" placeholder="{{Task2Update.Priority}}" ng-model="updPriority">
             </div>
         </div>
-        <div class="form-group">
+        <div class="form-group" ng-show="updTodo.length<=Max_Char_Limit && updPriority>=1 && updPriority<=5">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Update</button>
+                <button type="submit" class="btn btn-default" ng-click="Update()">Update</button>
             </div>
         </div>
+        <fieldset disabled ng-hide="updTodo.length<=Max_Char_Limit && updPriority>=1 && updPriority<=5">
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Update</button>
+                </div>
+            </div>
+        </fieldset>
     </form>
 </div>
