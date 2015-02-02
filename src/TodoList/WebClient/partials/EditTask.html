@@ -1,0 +1,42 @@
+﻿<a class="btn" type="button" href="#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Back to List</a>
+<div class="row" ng-init="colormagic='btn-success'">
+    <form class="form-horizontal ">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Task Details</label>
+            <div class="col-sm-7">
+                <input type="text" class="form-control" ng-model="updTodo">
+            </div>
+            <div class="col-sm-1">
+                <button type="button" class="btn btn-primary {{colormagic}} " disabled="disabled">
+                    {{updTodo.length}}/{{Max_Char_Limit}}
+                </button>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Add Schedule</label>
+            <div class="col-sm-7">
+                <input type="datetime-local" class="form-control" ng-model="updTimeAndDate">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Priority</label>
+            <div class="col-sm-7">
+                <input type="number" min="1" max="5" class="form-control" placeholder="{{Task2Update.Priority}}" ng-model="updPriority">
+            </div>
+        </div>
+        <div class="form-group" ng-show="updTodo.length<=Max_Char_Limit && updPriority>=1 && updPriority<=5">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default" ng-click="Update()">Update</button>
+            </div>
+        </div>
+        <fieldset disabled ng-hide="updTodo.length<=Max_Char_Limit && updPriority>=1 && updPriority<=5">
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Update</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
