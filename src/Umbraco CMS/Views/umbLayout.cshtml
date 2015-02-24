@@ -44,6 +44,13 @@
         var cp = CurrentPage.Siblings();
         var x = uQuery.GetRootNode().Children;
     }
+
+    @*
+            @Html.Action("asd", "localhost:23782/bn/")
+        @Response.Redirect(umbraco.library.NiceUrl(1088));
+    *@
+    
+    You are speaking @System.Globalization.CultureInfo.CurrentCulture.EnglishName;
     @foreach (umbraco.NodeFactory.Node lang in uQuery.GetRootNode().Children)
     {
         <li><a href="@lang.NiceUrl">@lang.Name</a></li>
