@@ -1,0 +1,50 @@
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\EggHead ngPractice.Tests.dll.config
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\EggHead ngPractice.Tests.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\EggHead ngPractice.Tests.pdb
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\EggHead ngPractice.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Helpers.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Http.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Mvc.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Razor.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.WebPages.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Optimization.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Owin.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.Security.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\EntityFramework.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Http.Owin.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\EggHead ngPractice.pdb
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Helpers.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Http.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Mvc.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Razor.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.WebPages.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Optimization.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.Security.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\EntityFramework.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\bin\Debug\System.Web.Http.Owin.xml
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\obj\Debug\EggHead ngPractice.Tests.csprojResolveAssemblyReference.cache
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\obj\Debug\EggHead ngPractice.Tests.dll
+G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.Tests\obj\Debug\EggHead ngPractice.Tests.pdb
