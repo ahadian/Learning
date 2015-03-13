@@ -12,21 +12,19 @@
     <script src="CustomFilter.App.js"></script>
     <script src="CustomFilter.Ctrl.js"></script>
     <script src="CustomFilter.Filter.js"></script>
-    
-    
 
 </head>
 <body style="margin-left:5px" ng-init="items=[15,23,38,2,51,9];selectedItem=1;increment=0" class="row">
     <div class="col-md-12">
         <div class="row">
-            <p>Initial Array: <span ng-repeat="item in items">{{ ($index==0?'':',') + item }}</span></p>
+            <p style="color:red">Initial Array: <span ng-repeat="item in items">{{ ($index==0?'':',') + item }}</span></p>
         </div>
         <div class="row">
             <div class="col-md-3">
                 <p>selected item is : {{selectedItem}}</p>
             </div>
             <div class="col-md-2">
-                Increase By:
+                Increase By:{{increment}}
             </div>
             <div class="col-md-3">
                 Result Without Applying Filter:
