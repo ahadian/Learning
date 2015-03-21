@@ -1,0 +1,15 @@
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\PUCClientApp.dll.config
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\PUCClientApp.dll
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\PUCClientApp.pdb
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\Newtonsoft.Json.dll
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\System.Net.Http.Formatting.dll
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\System.Web.Cors.dll
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\System.Web.Http.Cors.dll
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\System.Web.Http.dll
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\Newtonsoft.Json.xml
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\System.Net.Http.Formatting.xml
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\System.Web.Http.xml
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\bin\System.Web.Http.Cors.xml
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\obj\Debug\PUCClientApp.csprojResolveAssemblyReference.cache
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\obj\Debug\PUCClientApp.dll
+G:\Playing with CRUD\PlayingWithCRUD\PUCClientApp\obj\Debug\PUCClientApp.pdb
