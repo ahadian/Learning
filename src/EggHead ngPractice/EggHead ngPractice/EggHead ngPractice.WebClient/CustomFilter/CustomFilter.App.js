@@ -1,1 +1,1 @@
-﻿angular.module('custom.filter', ['ngRoute', 'ngResource']);
+﻿angular.module('custom.filter', []);

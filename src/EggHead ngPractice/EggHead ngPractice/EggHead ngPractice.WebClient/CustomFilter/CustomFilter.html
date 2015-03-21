@@ -14,42 +14,46 @@
     <script src="CustomFilter.Filter.js"></script>
 
 </head>
-<body style="margin-left:5px" ng-init="items=[15,23,38,2,51,9];selectedItem=1;increment=0" class="row">
-    <div class="col-md-12">
-        <div class="row">
-            <p style="color:red">Initial Array: <span ng-repeat="item in items">{{ ($index==0?'':',') + item }}</span></p>
+<body style="margin-left:5px" ng-init="items=[15,23,38,2,51,9];selectedItem=1;increment=0;testString='Foysal vai is genius'" class="row">
+<div class="col-md-12">
+    <div class="row">
+        <p style="color: red">Initial Array: <span ng-repeat="item in items">{{ ($index==0?'':',') + item }}</span></p>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <p>selected item is : {{selectedItem}}</p>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <p>selected item is : {{selectedItem}}</p>
-            </div>
-            <div class="col-md-2">
-                Increase By:{{increment}}
-            </div>
-            <div class="col-md-3">
-                Result Without Applying Filter:
-            </div>
-            <div class="col-md-3">
-                Result with Applying Filter:
-            </div>
+        <div class="col-md-2">
+            Increase By:{{increment}}
         </div>
+        <div class="col-md-3">
+            Result Without Applying Filter:
+        </div>
+        <div class="col-md-3">
+            Result with Applying Filter:
+        </div>
+    </div>
 
-        <div class="row">
-            <div class="col-md-3">
-                <select class="form-control" ng-model="selectedItem">
-                    <option ng-repeat="item in items" value="{{$index+1}}">{{$index+1}}</option>
-                </select>
-            </div>
-            <div class="col-md-2">
-                <input ng-model="increment" class="form-control" type="number" />
-            </div>
-            <div class="col-md-3">
-                <input class="form-control" type="text" value="{{items[selectedItem-1]+increment}}" />
-            </div>
-            <div class="col-md-3">
-                <input class="form-control" type="text" value="{{items|incrementFilter:selectedItem:increment}}" />
-            </div>
+    <div class="row">
+        <div class="col-md-3">
+            <select class="form-control" ng-model="selectedItem">
+                <option ng-repeat="item in items" value="{{$index+1}}">{{$index+1}}</option>
+            </select>
         </div>
+        <div class="col-md-2">
+            <input ng-model="increment" class="form-control" type="number"/>
+        </div>
+        <div class="col-md-3">
+            <input class="form-control" type="text" value="{{items[selectedItem-1]+increment}}"/>
+        </div>
+        <div class="col-md-3">
+            <input class="form-control" type="text" value="{{items|incrementFilter:selectedItem:increment}}"/>
+        </div>
+    </div>
+</div>
+
+    <div class="col-md-3">
+        <h1>{{testString|GuruGiveMeLength}}</h1>
     </div>
 
 </body>
