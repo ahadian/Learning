@@ -12,13 +12,22 @@
     <script src="../CustomDirective.App.js"></script>
     <script src="../CustomDirective.Ctrl.js"></script>
     <script src="CustomDirectiveBehaviors.Directive.js"></script>
+    <style>
+        .redClass {
+            color: red;
+        }
+
+        .blueClass {
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <h1>Directive binding behaviors</h1>
-    <div><mouse-enter>HI</mouse-enter></div>
-    <div>
-        <mouse-enter>Me</mouse-enter>
+    <div ng-controller="myCtrl">
+        <mouse-enter invoke-hi="sayHi()" invoke-bye="sayBye()">
+            HI
+        </mouse-enter>
     </div>
-    <div><mouse-enter>How Are You?</mouse-enter></div>
 </body>
 </html>
