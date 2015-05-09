@@ -4,3 +4,9 @@ G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClie
 G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\obj\Debug\EggHead ngPractice.WebClient.csprojResolveAssemblyReference.cache
 G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\obj\Debug\EggHead ngPractice.WebClient.dll
 G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\obj\Debug\EggHead ngPractice.WebClient.pdb
+H:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\bin\EggHead ngPractice.WebClient.dll.config
+H:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\bin\EggHead ngPractice.WebClient.dll
+H:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\bin\EggHead ngPractice.WebClient.pdb
+H:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\obj\Debug\EggHead ngPractice.WebClient.csprojResolveAssemblyReference.cache
+H:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\obj\Debug\EggHead ngPractice.WebClient.dll
+H:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice.WebClient\obj\Debug\EggHead ngPractice.WebClient.pdb

@@ -61,3 +61,4 @@ G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice\bin\Sys
 G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice\obj\Debug\EggHead ngPractice.csprojResolveAssemblyReference.cache
 G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice\obj\Debug\EggHead ngPractice.dll
 G:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice\obj\Debug\EggHead ngPractice.pdb
+H:\Learning\src\EggHead ngPractice\EggHead ngPractice\EggHead ngPractice\obj\Debug\EggHead ngPractice.csprojResolveAssemblyReference.cache
