@@ -1,0 +1,40 @@
+﻿<html ng-app="multipleViewExperiment">
+<head>
+    <title></title>
+    <script src="../Js libs/jquery-1.11.3.min.js"></script>
+    <script src="../Js libs/angular-1.3.15/angular.js"></script>
+
+    <script src="../Js libs/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
+    <script src="../Js libs/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="../Js libs/bootstrap-3.3.4-dist/js/npm.js"></script>
+    <link href="../Js libs/bootstrap-3.3.4-dist/css/bootstrap.css" rel="stylesheet" />
+
+
+    <script src="../Js libs/angular-ui-router.js"></script>
+
+    <style type="text/css">
+        .selected {
+            background-color: #efefef;
+            width: 120px;
+        }
+
+        .detail {
+            width: 300px;
+            margin: 30px;
+            border-top: 1px solid #efefef;
+        }
+    </style>
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="modules/header/dshboard/dashboard.ctrl.js"></script>
+    <script src="modules/header/campaign/campaign.ctrl.js"></script>
+
+</head>
+<body>
+    <h2>This is Test</h2>
+    <div ui-view="header"></div>
+    <div ui-view="content"></div>
+    <div ui-view="footer"></div>
+</body>
+</html>
