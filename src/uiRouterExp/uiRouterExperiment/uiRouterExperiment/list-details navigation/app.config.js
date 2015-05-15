@@ -26,7 +26,7 @@
                 controller: 'ShowsController'
             })
             .state('shows.details', {
-                url: '/details/:id',
+                url: '/details/:id/test/:test',
                 templateUrl: 'modules/details-view/shows-details.tpl.html',
                 controller: 'ShowsDetailsController'
             });
