@@ -1,0 +1,1 @@
+﻿angular.module('multipleViewExperiment2', ['ui.router']);

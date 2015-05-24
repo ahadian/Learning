@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html ng-app="finalProject">
+<head>
+    <title></title>
+    <script src="../Js libs/jquery-1.11.3.min.js"></script>
+    <script src="../Js libs/angular-1.3.15/angular.js"></script>
+
+    <script src="../Js libs/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
+    <script src="../Js libs/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="../Js libs/bootstrap-3.3.4-dist/js/npm.js"></script>
+    <link href="../Js libs/bootstrap-3.3.4-dist/css/bootstrap.css" rel="stylesheet"/>
+    <script src="../Js libs/angular-ui-router.js"></script>
+    
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="fakeService.js"></script>
+   
+     <style type="text/css">
+        .selected {
+            background-color: #efefef;
+            width: 120px;
+        }
+
+        .detail {
+            width: 300px;
+            margin: 30px;
+            border-top: 1px solid #efefef;
+        }
+    </style>
+    
+    <script src="Content/book/book-details/book-details.ctrl.js"></script>
+    <script src="Content/book/book-list/book-list.ctrl.js"></script>
+    <script src="Content/dashboard/dashboardCtrl.js"></script>
+</head>
+<body>
+    <h1>My Final Project</h1> {{1+1}}
+    <div ui-view="header"></div>
+    <div ui-view="content"></div>
+<div ui-view="footer"></div>
+
+<h1>Special thanks to the author of this tutorial : <a href="http://www.funnyant.com/angularjs-ui-router/"> this tutorial </a> </h1>
+</body>
+</html>
