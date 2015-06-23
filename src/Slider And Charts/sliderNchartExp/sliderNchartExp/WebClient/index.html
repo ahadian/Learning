@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="chartsExp">
+<head>
+    <title>Tesing Sliders :D </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-resource.min.js"></script>
+    <script src="Chart ScriptsNStyles/angularjs-nvd3-directives.js"></script>
+    <script src="Chart ScriptsNStyles/d3.min.js"></script>
+    <script src="Chart ScriptsNStyles/nv.d3.min.js"></script>
+    <script src="Chart ScriptsNStyles/scale.fix.js"></script>
+    <script src="scripts/app.js"></script>
+    <style>
+        input[type='range'] {
+            -webkit-appearance: none !important;
+            background: blue;
+            height: 7px;
+            width: 400px;
+        }
+
+            input[type='range']::-webkit-slider-thumb {
+                -webkit-appearance: none !important;
+                background: black;
+                height: 30px;
+                width: 10px;
+            }
+    </style>
+</head>
+<body ng-controller="chartCtrl" ng-init="slider=0.5">
+    {{test}}
+    <div>
+        <input type="range" min="0" max="1" step="0.01" ng-model="slider" />{{slider}}
+    </div>
+    <div>
+        <nvd3-pie-chart data="exampleData"
+                        id="showLegendExample"
+                        width="1000"
+                        height="500"
+                        x="xFunction()"
+                        y="yFunction()"
+                        showlegend="true"
+                        showlabels="true"
+                        labeltype="percent"
+                        donut="true"
+                        donutratio={{slider}}>
+            <svg height="250"></svg>
+        </nvd3-pie-chart>
+    </div>
+    <div>
+        <nvd3-pie-chart data="exampleData"
+                        id="showLegendExample2"
+                        width="550"
+                        height="350"
+                        x="xFunction()"
+                        y="yFunction()"
+                        showlegend="true"
+                        showlabels="true"
+                        labeltype="percent">
+            <svg height="250"></svg>
+        </nvd3-pie-chart>
+    </div>
+
+</body>
+</html>
