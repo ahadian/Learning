@@ -9,6 +9,10 @@
     <script src="Chart ScriptsNStyles/nv.d3.min.js"></script>
     <script src="Chart ScriptsNStyles/scale.fix.js"></script>
     <script src="scripts/app.js"></script>
+
+    <link href="Chart ScriptsNStyles/nv.d3.css" rel="stylesheet" />
+    <link href="Chart ScriptsNStyles/pygment_trac.min.css" rel="stylesheet" />
+    <link href="Chart ScriptsNStyles/styles.min.css" rel="stylesheet" />
     <style>
         input[type='range'] {
             -webkit-appearance: none !important;
@@ -27,7 +31,7 @@
 </head>
 <body ng-controller="chartCtrl" ng-init="slider=0.5">
     {{test}}
-    <div>
+    <!--<div>
         <input type="range" min="0" max="1" step="0.01" ng-model="slider" />{{slider}}
     </div>
     <div>
@@ -57,6 +61,37 @@
                         labeltype="percent">
             <svg height="250"></svg>
         </nvd3-pie-chart>
+    </div>-->
+    <!--<div>
+        <nvd3-discrete-bar-chart data="reduceXTicksData"
+                                 id="barchart"
+                                 showxaxis="true"
+                                 showyaxis="true"
+                                 width="550"
+                                 height="300"
+                                 stacked="true"
+                                 xaxistickformat="xAxisTickFormatFunction()"
+                                 showvalues="true"
+                                 rotatelabels="180"
+                                 showlegend="true"
+                                 interactive="true">
+
+            <svg></svg>
+        </nvd3-discrete-bar-chart>
+    </div>-->
+
+    <div>
+        <nvd3-discrete-bar-chart data="reduceXTicksData"
+                                 id="showValueExample"
+                                 showxaxis="true"
+                                 showyaxis="true"
+                                 width="1550"
+                                 height="600"
+                                 xaxistickformat="xAxisTickFormatFunction()"
+                                 forcey="[-20,20]"
+                                 showvalues="true">
+            <svg></svg>
+        </nvd3-discrete-bar-chart>
     </div>
 
 </body>
