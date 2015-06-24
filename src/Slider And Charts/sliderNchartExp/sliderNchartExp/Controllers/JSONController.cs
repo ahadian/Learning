@@ -53,9 +53,7 @@ namespace sliderNchartExp.Controllers
             {
                 response.Add(new List<long>(){pair.Key,pair.Value});
             }
-            
             return response;
-
         }
 
         // POST: api/JSON
