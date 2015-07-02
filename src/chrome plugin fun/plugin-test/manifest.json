@@ -1,0 +1,13 @@
+{
+"manifest_version": 2,
+"name": "Getting started example",
+"version": "1.0",
+"browser_action": {
+    "default_icon": "images/po.png",
+    "default_title": "Google"
+},
+"background": {
+    "scripts": ["engine.js"],
+    "persistent": false
+}
+}
