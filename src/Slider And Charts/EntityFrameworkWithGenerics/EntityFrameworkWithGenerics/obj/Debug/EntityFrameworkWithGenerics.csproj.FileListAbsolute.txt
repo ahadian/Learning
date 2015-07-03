@@ -1,0 +1,13 @@
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\bin\Debug\EntityFrameworkWithGenerics.exe.config
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\bin\Debug\EntityFrameworkWithGenerics.exe
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\bin\Debug\EntityFrameworkWithGenerics.pdb
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\bin\Debug\EntityFramework.dll
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\bin\Debug\EntityFramework.SqlServer.dll
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\bin\Debug\EntityFramework.xml
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\bin\Debug\EntityFramework.SqlServer.xml
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\obj\Debug\EntityFrameworkWithGenerics.csprojResolveAssemblyReference.cache
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\obj\Debug\EntityFrameworkWithGenerics.exe
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\obj\Debug\EntityFrameworkWithGenerics.pdb
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\obj\Debug\EntityFrameworkWithGenerics.Migrations.Test.resources
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\obj\Debug\EntityFrameworkWithGenerics.csproj.GenerateResource.Cache
+H:\Learning\src\Slider And Charts\EntityFrameworkWithGenerics\EntityFrameworkWithGenerics\obj\Debug\EntityFrameworkWithGenerics.Migrations.PendAdded.resources
