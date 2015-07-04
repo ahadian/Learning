@@ -23,10 +23,10 @@ thisApp.controller('chartCtrl', ['$scope', '$resource', '$q', function ($scope, 
     saveMyAss().then(function(myAss) {
         console.log('myAss', myAss);
         $scope.reduceXTicksData = [
-           {
-               "key": "Series 1",
-               "values": myAss
-           }
+        {
+            "key": "Series 1",
+            "values": myAss
+    }
         ];
         console.log('date exp', $scope.reduceXTicksData.values);
     });

@@ -98,14 +98,39 @@
         </nvd3-discrete-bar-chart>
     </div>-->
 
-    <!--<div style="width: 1550px; height: 600px; border: 1px solid black; overflow-x: scroll;overflow-y: scroll">
+<!--<div style="width: 1550px; height: 600px; border: 1px solid black; overflow-x: scroll;overflow-y: scroll">
+    <div>
+        <nvd3-multi-bar-chart data="reduceXTicksData"
+                              id="asd"
+                              showxaxis="true"
+                              showyaxis="true"
+                              width="1550"
+                              height="600"
+                              xaxistickformat="xAxisTickFormatFunction()"
+                              forcey="[0,30]"
+                              showlabels="true"
+                              rotatelabels="45"
+                              showlegend="true"
+                              delay="2400"
+                              interactive="true"
+                              showvalues="true">
+            <svg></svg>
+        </nvd3-multi-bar-chart>
+    </div>
+</div>-->
+
+
+<div class="outer">
+    <div class="inner" style="margin: 100px" ng-init="customWidth=1500;customHeight=600">
+        Width : <input type="number" ng-model="customWidth" />
+        Width : <input type="number" ng-model="customHeight" />
         <div>
             <nvd3-multi-bar-chart data="reduceXTicksData"
                                   id="asd"
                                   showxaxis="true"
                                   showyaxis="true"
-                                  width="1550"
-                                  height="600"
+                                  width="customWidth"
+                                  height="customHeight"
                                   xaxistickformat="xAxisTickFormatFunction()"
                                   forcey="[0,30]"
                                   showlabels="true"
@@ -117,29 +142,7 @@
                 <svg></svg>
             </nvd3-multi-bar-chart>
         </div>
-    </div>-->
-
-    <div class="outer">
-        <div class="inner" style="margin:100px">
-            <div>
-                <nvd3-multi-bar-chart data="reduceXTicksData"
-                                      id="asd"
-                                      showxaxis="true"
-                                      showyaxis="true"
-                                      width="1500"
-                                      height="600"
-                                      xaxistickformat="xAxisTickFormatFunction()"
-                                      forcey="[0,30]"
-                                      showlabels="true"
-                                      rotatelabels="45"
-                                      showlegend="true"
-                                      delay="2400"
-                                      interactive="true"
-                                      showvalues="true">
-                    <svg></svg>
-                </nvd3-multi-bar-chart>
-            </div>
-        </div>
+    </div>
     </div>
 
 
