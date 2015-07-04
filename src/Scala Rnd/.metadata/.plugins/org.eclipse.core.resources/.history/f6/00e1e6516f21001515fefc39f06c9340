@@ -1,0 +1,15 @@
+
+
+/**
+ * @author NAJIM
+ */
+import scala.io.StdIn;
+object MyProgram {
+  def main(args: Array[String]):Unit ={
+    println("scala rocks again!");
+    val t=("najim",27)
+    val (name,age) = t;
+    var ageX=scala.io.StdIn;
+    println(name,t._1,ageX);
+  }
+} 

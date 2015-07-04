@@ -1,0 +1,23 @@
+
+
+/**
+ * @author NAJIM
+ */
+import scala.io.StdIn;
+
+object MyProgram {
+  def main(args: Array[String]):Unit ={
+    println("scala rocks again!");
+    val t=("najim",27)
+    val (name,age) = t;
+    var ageX=scala.io.StdIn.readInt();
+    //for (ln <- io.Source.stdin.getLines) println(ln)
+    println(name,t._1,ageX);
+    val myName = concat("Najim","Ahmed");
+    println("my name is "+myName);
+    
+  }
+  def concat(string1: String,string2:String):String= {
+    string1+string2;
+  }
+}  
