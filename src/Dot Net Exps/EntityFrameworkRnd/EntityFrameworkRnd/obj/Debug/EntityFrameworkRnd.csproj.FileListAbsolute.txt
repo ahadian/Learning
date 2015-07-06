@@ -1,0 +1,12 @@
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\bin\Debug\EntityFrameworkRnd.exe.config
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\bin\Debug\EntityFrameworkRnd.exe
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\bin\Debug\EntityFrameworkRnd.pdb
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\bin\Debug\EntityFramework.dll
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\bin\Debug\EntityFramework.SqlServer.dll
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\bin\Debug\EntityFramework.xml
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\bin\Debug\EntityFramework.SqlServer.xml
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\obj\Debug\EntityFrameworkRnd.csprojResolveAssemblyReference.cache
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\obj\Debug\EntityFrameworkRnd.exe
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\obj\Debug\EntityFrameworkRnd.pdb
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\obj\Debug\EntityFrameworkRnd.Migrations.FirstMigration.resources
+H:\Learning\src\Dot Net Exps\EntityFrameworkRnd\EntityFrameworkRnd\obj\Debug\EntityFrameworkRnd.csproj.GenerateResource.Cache
