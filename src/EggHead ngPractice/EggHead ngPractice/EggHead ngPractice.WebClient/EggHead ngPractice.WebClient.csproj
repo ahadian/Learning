@@ -271,6 +271,8 @@
     <Content Include="angular-1.3.14\angular-1.3.14\docs\js\search-worker.min.js.map" />
     <Content Include="angular-1.3.14\angular-1.3.14\errors.json" />
     <Content Include="angular-1.3.14\angular-1.3.14\version.json" />
+    <Content Include="CustomDirective\ScrollEvents\CustomDirectiveScrollEvents.Directive.js" />
+    <Content Include="CustomDirective\ScrollEvents\CustomDirectiveRScrollEvents.html" />
     <Content Include="IsolateScope\EqlSign\EqlSign.html" />
     <Content Include="IsolateScope\EqlSign\IsolateScope.EqlSign.Ctrl.js" />
     <Content Include="IsolateScope\AndSign\AndSign.html" />
