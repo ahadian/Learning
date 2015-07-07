@@ -71,6 +71,7 @@ for (var i = 1; i < json.length; i++) {
     var ObjectiveId = json[i].FIELD3;
     var params = stringFormat(ActivityId) + ' , ' + stringFormat(Description) + ' , ' + stringFormat(ObjectiveId);
 
-    var command = 'insert into dbo.Activities (ActivityId,Description,ObjectiveId) values (' + params + ');' + "<br/>";
-    document.writeln(command);
+    var command = 'insert into dbo.Activities (ActivityId,Description,ObjectiveId) values (' + params + ');' ;
+    //document.writeln(command + "<br/>");
+    console.log(command);
 }
