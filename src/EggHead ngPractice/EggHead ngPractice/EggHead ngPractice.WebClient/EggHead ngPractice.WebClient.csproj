@@ -273,15 +273,26 @@
     <Content Include="angular-1.3.14\angular-1.3.14\version.json" />
     <Content Include="CustomDirective\ScrollEvents\CustomDirectiveScrollEvents.Directive.js" />
     <Content Include="CustomDirective\ScrollEvents\CustomDirectiveRScrollEvents.html" />
-    <Content Include="ScriptGen\myScript.js" />
-    <Content Include="ScriptGen\CustomFilter.html" />
-    <Content Include="IsolateScope\EqlSign\EqlSign.html" />
-    <Content Include="IsolateScope\EqlSign\IsolateScope.EqlSign.Ctrl.js" />
     <Content Include="IsolateScope\AndSign\AndSign.html" />
     <Content Include="IsolateScope\AndSign\IsolateScope.AndSign.Ctrl.js" />
-    <Content Include="IsolateScope\IsolateScope.App.js" />
-    <Content Include="IsolateScope\AtSign\IsolateScope.AtSign.Ctrl.js" />
     <Content Include="IsolateScope\AtSign\AtSign.html" />
+    <Content Include="IsolateScope\AtSign\IsolateScope.AtSign.Ctrl.js" />
+    <Content Include="IsolateScope\EqlSign\EqlSign.html" />
+    <Content Include="IsolateScope\EqlSign\IsolateScope.EqlSign.Ctrl.js" />
+    <Content Include="IsolateScope\IsolateScope.App.js" />
+    <Content Include="ScriptGen\DateRatings.js" />
+    <Content Include="ScriptGen\Users.js" />
+    <Content Include="ScriptGen\PerformanceIndicators.js" />
+    <Content Include="ScriptGen\PerformanceIndicatorNumberUnits.js" />
+    <Content Include="ScriptGen\PerformanceIndicatorDateUnits.js" />
+    <Content Include="ScriptGen\Objectives.js" />
+    <Content Include="ScriptGen\NumberRatings.js" />
+    <Content Include="ScriptGen\Navigations.js" />
+    <Content Include="ScriptGen\Activities .js" />
+    <Content Include="ScriptGen\CustomFilter.html" />
+    <Content Include="IntermediateDirectiveRnd\IntDirRnd.html" />
+    <Content Include="IntermediateDirectiveRnd\IntDirRnd.js" />
+    <Content Include="IntermediateDirectiveRnd\IntDirRnd.App.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
