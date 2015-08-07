@@ -12,18 +12,21 @@
     <script src="IntDirRnd.js"></script>
 </head>
 <body>
-    <div ng-controller="AppCtrl">
-        <div ng-repeat="user in data">
-            {{user.Id}} + {{user.Name}}
-            <div id="parent">
-                <details-view usrid="user.Id" >
+<div ng-controller="AppCtrl">
+    <div ng-repeat="user in data">
+        {{user.Id}} + {{user.Name}}
+        <div id="parent">
+            <input type="text" ng-model="user.Id"/>
+            <details-view usrid="user.Id">
 
-                </details-view>
-            </div>
-
+            </details-view>
+            <mytransclude>This is a transcluded directive {{firstName}}</mytransclude>
         </div>
-        
     </div>
+    <div style="color: red">I am a bad boy!</div>
+    {{username}}
+</div>
+
 
 </body>
 </html>

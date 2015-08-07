@@ -273,6 +273,9 @@
     <Content Include="angular-1.3.14\angular-1.3.14\version.json" />
     <Content Include="CustomDirective\ScrollEvents\CustomDirectiveScrollEvents.Directive.js" />
     <Content Include="CustomDirective\ScrollEvents\CustomDirectiveRScrollEvents.html" />
+    <Content Include="DirectiveWithDanWahlin\DirectiveWithDanWahlin.js" />
+    <Content Include="DirectiveWithDanWahlin\DirectiveWithDanWahlin.html" />
+    <Content Include="DirectiveWithDanWahlin\DirectiveWithDanWahlin.ctrl.js" />
     <Content Include="IsolateScope\AndSign\AndSign.html" />
     <Content Include="IsolateScope\AndSign\IsolateScope.AndSign.Ctrl.js" />
     <Content Include="IsolateScope\AtSign\AtSign.html" />
