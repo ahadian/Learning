@@ -96,6 +96,7 @@ namespace UrlShortener.Controllers
                 ResponseMessage = "success"
             };
         }
+        [HttpGet]
         public Response GetFullUrl(string encodedUrl)
         {
             return new Response()
