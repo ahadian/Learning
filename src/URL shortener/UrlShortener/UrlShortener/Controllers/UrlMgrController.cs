@@ -77,14 +77,12 @@ namespace UrlShortener.Controllers
         private string baseUrl = "http://localhost:38252/api/UrlMgr/";
         public UrlMgrController()
         {
-            string conString = @"Data Source=STONEHEART\STONEHEART;" + "Trusted_Connection=yes;" + "Integrated Security=True;" + "Initial Catalog=UrlShortener;" + "database=UrlShortener; " + "connection timeout=5";
-            using (SqlConnection conn = new SqlConnection(conString))
-            {
-                conn.Open();
-                var x = conn.State == ConnectionState.Open;
-
-
-            }
+            //string conString = @"Data Source=STONEHEART\STONEHEART;" + "Trusted_Connection=yes;" + "Integrated Security=True;" + "Initial Catalog=UrlShortener;" + "database=UrlShortener; " + "connection timeout=5";
+            //using (SqlConnection conn = new SqlConnection(conString))
+            //{
+            //    conn.Open();
+            //    var x = conn.State == ConnectionState.Open;
+            //}
         }
 
 
