@@ -1,0 +1,6 @@
+H:\Learning\src\DummyWebCrawler\SimpleWebCrawler\SimpleWebCrawler\bin\Debug\SimpleWebCrawler.exe.config
+H:\Learning\src\DummyWebCrawler\SimpleWebCrawler\SimpleWebCrawler\bin\Debug\SimpleWebCrawler.exe
+H:\Learning\src\DummyWebCrawler\SimpleWebCrawler\SimpleWebCrawler\bin\Debug\SimpleWebCrawler.pdb
+H:\Learning\src\DummyWebCrawler\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\SimpleWebCrawler.csprojResolveAssemblyReference.cache
+H:\Learning\src\DummyWebCrawler\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\SimpleWebCrawler.exe
+H:\Learning\src\DummyWebCrawler\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\SimpleWebCrawler.pdb
