@@ -1,0 +1,17 @@
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\MarkedText.dll.config
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\MarkedText.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\MarkedText.pdb
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\Newtonsoft.Json.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Net.Http.Formatting.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Web.Http.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Web.Http.WebHost.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\Newtonsoft.Json.xml
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Net.Http.Formatting.xml
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Web.Http.xml
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Web.Http.WebHost.xml
+H:\Learning\src\Marked Text\MarkedText\MarkedText\obj\Debug\MarkedText.csprojResolveAssemblyReference.cache
+H:\Learning\src\Marked Text\MarkedText\MarkedText\obj\Debug\MarkedText.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\obj\Debug\MarkedText.pdb
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Web.Cors.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Web.Http.Cors.dll
+H:\Learning\src\Marked Text\MarkedText\MarkedText\bin\System.Web.Http.Cors.xml

@@ -71,11 +71,10 @@ namespace SimpleWebCrawler
             for (i = 0; i < featuredNewsUrls.Count; i++)
             {
                 WordFrequency(GetUrl(featuredNewsUrls[i]));
-                Process.Start(chromePath, featuredNewsUrls[i]);
-                break;
+                //Process.Start(chromePath, featuredNewsUrls[i]);
                 //Console.WriteLine("Visit following Url:\n" + featuredNewsUrls[i]);
                 //string command = Console.ReadLine();
-                //if("yes".IndexOf(command,StringComparison.InvariantCultureIgnoreCase)!=-1)
+                //if("yes".IndexOf(command,StringComparison.InvariantCultureIgnoreCase)!=-1)Process.Start(chromePath, featuredNewsUrls[i]);
                 
             }
         }
