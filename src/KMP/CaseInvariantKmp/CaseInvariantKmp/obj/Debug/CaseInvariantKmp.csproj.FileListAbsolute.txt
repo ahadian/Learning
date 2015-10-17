@@ -1,0 +1,6 @@
+F:\Learning\src\KMP\CaseInvariantKmp\CaseInvariantKmp\bin\Debug\CaseInvariantKmp.exe.config
+F:\Learning\src\KMP\CaseInvariantKmp\CaseInvariantKmp\bin\Debug\CaseInvariantKmp.exe
+F:\Learning\src\KMP\CaseInvariantKmp\CaseInvariantKmp\bin\Debug\CaseInvariantKmp.pdb
+F:\Learning\src\KMP\CaseInvariantKmp\CaseInvariantKmp\obj\Debug\CaseInvariantKmp.csprojResolveAssemblyReference.cache
+F:\Learning\src\KMP\CaseInvariantKmp\CaseInvariantKmp\obj\Debug\CaseInvariantKmp.exe
+F:\Learning\src\KMP\CaseInvariantKmp\CaseInvariantKmp\obj\Debug\CaseInvariantKmp.pdb
