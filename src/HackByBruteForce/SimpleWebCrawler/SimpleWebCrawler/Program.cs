@@ -5,6 +5,7 @@
 // */
 
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 
 namespace HackByBruteForce
 {
@@ -20,7 +21,7 @@ namespace HackByBruteForce
     {
         private static Timer aTimer;
 
-        private static string Destination, Name, Text1, Text2, Url, TimeInterval;
+        private static string Destination, Name, Text1, Text2, Url, TimeInterval,LogFileDest;
 
         public static string GetUrl(string url)
         {
@@ -64,7 +65,7 @@ namespace HackByBruteForce
             Destination = ConfigurationManager.AppSettings["Destination"];
             Name = ConfigurationManager.AppSettings["Name"];
             TimeInterval = ConfigurationManager.AppSettings["Interval_SECOND"];
-
+            LogFileDest = ConfigurationManager.AppSettings["LogFile"];
 
             aTimer = new Timer(10000);
             aTimer.Elapsed += OnTimedEvent;
@@ -88,6 +89,17 @@ namespace HackByBruteForce
                 {
                     SendMail();
                 }
+                Write(data);
+            }
+        }
+
+        private static void Write(string data)
+        {
+            string fileName = LogFileDest + "\\logFile" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm", CultureInfo.InvariantCulture) + ".txt";
+            using (FileStream fs = new FileStream(fileName, FileMode.Append, FileAccess.Write))
+            using (StreamWriter sw = new StreamWriter(fs))
+            {
+                sw.WriteLine(data);
             }
         }
 
