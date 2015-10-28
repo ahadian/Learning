@@ -1,0 +1,6 @@
+H:\Learning\src\SocketExp\BlockSiteWithScheduler\BlockSiteWithScheduler\bin\Debug\BlockSiteWithScheduler.exe.config
+H:\Learning\src\SocketExp\BlockSiteWithScheduler\BlockSiteWithScheduler\bin\Debug\BlockSiteWithScheduler.exe
+H:\Learning\src\SocketExp\BlockSiteWithScheduler\BlockSiteWithScheduler\bin\Debug\BlockSiteWithScheduler.pdb
+H:\Learning\src\SocketExp\BlockSiteWithScheduler\BlockSiteWithScheduler\obj\Debug\BlockSiteWithScheduler.csprojResolveAssemblyReference.cache
+H:\Learning\src\SocketExp\BlockSiteWithScheduler\BlockSiteWithScheduler\obj\Debug\BlockSiteWithScheduler.exe
+H:\Learning\src\SocketExp\BlockSiteWithScheduler\BlockSiteWithScheduler\obj\Debug\BlockSiteWithScheduler.pdb
