@@ -4,3 +4,9 @@ H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Debug\Hac
 H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\HackByBruteForce.csprojResolveAssemblyReference.cache
 H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\HackByBruteForce.exe
 H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\HackByBruteForce.pdb
+F:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Debug\HackByBruteForce.exe.config
+F:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Debug\HackByBruteForce.exe
+F:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Debug\HackByBruteForce.pdb
+F:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\HackByBruteForce.csprojResolveAssemblyReference.cache
+F:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\HackByBruteForce.exe
+F:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Debug\HackByBruteForce.pdb
