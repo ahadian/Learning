@@ -84,7 +84,10 @@ namespace HackByBruteForce
                 int idx1 = data.IndexOf(Text1, StringComparison.InvariantCultureIgnoreCase);
                 int idx2 = data.IndexOf(Text2, StringComparison.InvariantCultureIgnoreCase);
                 bool isActive = (idx1 == -1) || (idx2 == -1);
-                if (isActive) SendMail();
+                if (isActive)
+                {
+                    SendMail();
+                }
             }
         }
 
