@@ -1,0 +1,16 @@
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\WebApplication1.dll
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\obj\Debug\Case.WebService.csprojResolveAssemblyReference.cache
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\ReflectionTest.pdb
+F:\Learning\src\CaseExp\WebApplication1\WebApplication1\bin\ReflectionTest.dll
