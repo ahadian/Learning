@@ -67,6 +67,8 @@ namespace HackByBruteForce
             TimeInterval = ConfigurationManager.AppSettings["Interval_SECOND"];
             LogFileDest = ConfigurationManager.AppSettings["LogFile"];
 
+            Write("This is Test Write....");
+
             aTimer = new Timer(10000);
             aTimer.Elapsed += OnTimedEvent;
             aTimer.Interval = int.Parse(TimeInterval);
