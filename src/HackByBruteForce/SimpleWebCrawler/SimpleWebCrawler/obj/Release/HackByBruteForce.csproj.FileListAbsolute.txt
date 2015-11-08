@@ -3,3 +3,7 @@ H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Release\H
 H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Release\HackByBruteForce.pdb
 H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Release\HackByBruteForce.exe
 H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Release\HackByBruteForce.pdb
+H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\obj\Release\HackByBruteForce.csprojResolveAssemblyReference.cache
+H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Release\HtmlAgilityPack.dll
+H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Release\HtmlAgilityPack.pdb
+H:\Learning\src\HackByBruteForce\SimpleWebCrawler\SimpleWebCrawler\bin\Release\HtmlAgilityPack.xml
