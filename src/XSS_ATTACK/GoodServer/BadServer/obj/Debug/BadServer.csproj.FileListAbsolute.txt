@@ -1,0 +1,14 @@
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\BadServer.dll.config
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\BadServer.dll
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\BadServer.pdb
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\Newtonsoft.Json.dll
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Net.Http.Formatting.dll
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.dll
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.WebHost.dll
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\Newtonsoft.Json.xml
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Net.Http.Formatting.xml
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.xml
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.WebHost.xml
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.csprojResolveAssemblyReference.cache
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.dll
+G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.pdb

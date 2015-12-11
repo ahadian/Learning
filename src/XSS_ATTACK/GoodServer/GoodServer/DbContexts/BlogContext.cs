@@ -19,6 +19,7 @@ namespace GoodServer.DbContexts
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            //Database.SetInitializer(new DropCreateDatabaseAlways<BlogContext>());
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
     }

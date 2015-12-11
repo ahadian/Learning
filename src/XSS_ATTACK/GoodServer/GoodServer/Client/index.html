@@ -3,7 +3,7 @@
 <head>
     <title></title>
 </head>
-<body>
+<body id="body">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
@@ -16,6 +16,7 @@
             <div class="row">
                 <div class="row">
                     <div class="row" id="newPost">
+                        <input type="text" class="form-control" placeholder="Text input" id="myPostTitle">
                         Say Something: <textarea class="form-control" rows="3" id="myPost"></textarea>
                         <a class="btn btn-default" href="#" role="button" onclick="CreatePost()">Post</a>
                     </div>
@@ -58,9 +59,12 @@
 
     var CreatePost = function () {
         var myPost = document.getElementById("myPost").value;
+        var myPostTitle = document.getElementById("myPostTitle").value;
         document.getElementById("myPost").value = null;
+        document.getElementById("myPostTitle").value = null;
         var data = {
-            Post: myPost
+            Post: myPost,
+            Title: myPostTitle
         }
 
 
@@ -94,7 +98,7 @@
                     console.log(data[i]);
                     var innerDiv = document.createElement('a');
                     innerDiv.id = data[i].Id;
-                    innerDiv.appendChild(document.createTextNode("Link"));
+                    innerDiv.appendChild(document.createTextNode(data[i].Title));
                     innerDiv.href = '#';
                     innerDiv.onclick = function (e) {
                         return loadScript(e);
