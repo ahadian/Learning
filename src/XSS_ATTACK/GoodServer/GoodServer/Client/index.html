@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!--<img src="/" onerror="alert(1);">-->
+    <br /><br /><br />
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="row" id="newPost">
+                        Say Something: <textarea class="form-control" rows="3" id="myPost"></textarea>
+                        <a class="btn btn-default" href="#" role="button" onclick="CreatePost()">Post</a>
+                    </div>
+                    <br /><br /><br />
+                    <div class="row">
+                        <div class="col-md-6" id="myPostsList">
+                            Your <span id="posCount"></span> most recent posts
+                        </div>
+                        <div class="col-md-6" id="myPostsDetails"></div>
+                    </div>
+                    <div id="post">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script>
+    var masterScript = function () {
+        var scriptToInject = '<img src="/" onerror = "alert(1);">';
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                console.log((xhr.responseText));
+                var data = JSON.parse(xhr.responseText);
+                console.log(data[0].Post);
+                var a = document.getElementById("post");
+                a.innerHTML = data[0].Post;
+            }
+        }
+        xhr.open('GET', 'http://localhost:49274/api/BlogPosts/GetAllPost', true);
+        xhr.send(null);
+    }
+
+
+
+    var CreatePost = function () {
+        var myPost = document.getElementById("myPost").value;
+        document.getElementById("myPost").value = null;
+        var data = {
+            Post: myPost
+        }
+
+
+        var xhr = new XMLHttpRequest();
+        console.log(data);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                console.log((xhr.responseText));
+                Reload();
+            }
+        }
+        xhr.open('POST', 'http://localhost:49274/api/BlogPosts/PostBlogPost', true);
+        xhr.setRequestHeader("Content-type", "application/json");
+        xhr.send(JSON.stringify(data));
+        
+    }
+    var Reload = function () {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                var data = JSON.parse(xhr.responseText);
+                var currentDiv = document.getElementById('myPostsList');
+
+                while (currentDiv.firstChild) {
+                    currentDiv.removeChild(currentDiv.firstChild);
+                }
+                console.log(data);
+                //debugger;
+                for(var i =0;i<data.length;i++)
+                {
+                    console.log(data[i]);
+                    var innerDiv = document.createElement('a');
+                    innerDiv.id = data[i].Id;
+                    innerDiv.appendChild(document.createTextNode("Link"));
+                    innerDiv.href = '#';
+                    innerDiv.onclick = function (e) {
+                        return loadScript(e);
+                    };
+                    currentDiv.appendChild(innerDiv);
+                    currentDiv.appendChild(document.createElement("br"));
+                }
+            }
+        }
+        xhr.open('GET', 'http://localhost:49274/api/BlogPosts/GetAllPost', true);
+        xhr.send(null);
+
+        
+        //var currentDiv = document.getElementById('myPostsList');
+        //// Now create and append to iDiv
+        //var innerDiv = document.createElement('div');
+        //innerDiv.className = 'block-2';
+        //innerDiv.innerHTML = "I am there";
+        //// The variable iDiv is still good... Just append to it.
+        //currentDiv.appendChild(innerDiv);
+    }
+    Reload();
+    var loadScript = function(e)
+    {
+        console.log(e);
+        console.log(e.target.id);
+        var currentDiv = document.getElementById("myPostsDetails");
+        currentDiv.innerHTML = "Post Id: " + e.target.id;
+
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                console.log((xhr.responseText));
+                var data = JSON.parse(xhr.responseText);
+                var innerDiv = document.createElement('div');
+                innerDiv.innerHTML = data.Post;
+                currentDiv.appendChild(innerDiv);
+            }
+        }
+        xhr.open('GET', 'http://localhost:49274/api/BlogPosts/GetBlogPost?id=' + e.target.id, true);
+        xhr.send(null);
+
+
+        
+
+    }
+
+
+</script>
