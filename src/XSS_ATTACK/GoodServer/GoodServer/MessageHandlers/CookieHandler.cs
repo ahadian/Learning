@@ -13,9 +13,10 @@ namespace GoodServer.MessageHandlers
         protected async override Task<HttpResponseMessage> SendAsync(
         HttpRequestMessage request, CancellationToken cancellationToken)
         {
+            var c = HttpContext.Current.Response.Cookies;
             var response = await base.SendAsync(request, cancellationToken);
             var cookie = new HttpCookie("GoodServerCookie", "this cookie came from good server");
-            cookie.Domain = "172.168.0.107";
+            //cookie.Domain = "127.0.0.1";
             cookie.Expires = DateTime.UtcNow.AddMinutes(60);
             HttpContext.Current.Response.Cookies.Set(cookie);
             return response;

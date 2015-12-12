@@ -16,9 +16,10 @@ namespace BadServer
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
     }
 }
+//http://stackoverflow.com/questions/21563940/how-to-connect-to-localdb-in-visual-studio-server-explorer
