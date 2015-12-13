@@ -4,3 +4,9 @@ H:\Learning\src\RawJsExp\JsInAction\JsInAction\bin\JsInAction.pdb
 H:\Learning\src\RawJsExp\JsInAction\JsInAction\obj\Debug\JsInAction.csprojResolveAssemblyReference.cache
 H:\Learning\src\RawJsExp\JsInAction\JsInAction\obj\Debug\JsInAction.dll
 H:\Learning\src\RawJsExp\JsInAction\JsInAction\obj\Debug\JsInAction.pdb
+F:\Learning\src\RawJsExp\JsInAction\JsInAction\bin\JsInAction.dll.config
+F:\Learning\src\RawJsExp\JsInAction\JsInAction\bin\JsInAction.dll
+F:\Learning\src\RawJsExp\JsInAction\JsInAction\bin\JsInAction.pdb
+F:\Learning\src\RawJsExp\JsInAction\JsInAction\obj\Debug\JsInAction.csprojResolveAssemblyReference.cache
+F:\Learning\src\RawJsExp\JsInAction\JsInAction\obj\Debug\JsInAction.dll
+F:\Learning\src\RawJsExp\JsInAction\JsInAction\obj\Debug\JsInAction.pdb
