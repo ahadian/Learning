@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/21563940/how-to-connect-to-localdb-in-visual-studio-server-explorer
