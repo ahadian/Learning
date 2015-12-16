@@ -1,0 +1,14 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.csprojResolveAssemblyReference.cache
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.dll.config
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.pdb
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\Newtonsoft.Json.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Net.Http.Formatting.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.WebHost.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\Newtonsoft.Json.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Net.Http.Formatting.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.WebHost.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.pdb
