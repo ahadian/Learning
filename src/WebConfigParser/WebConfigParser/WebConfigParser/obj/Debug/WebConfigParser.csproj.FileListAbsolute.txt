@@ -1,0 +1,6 @@
+F:\Learning\src\WebConfigParser\WebConfigParser\WebConfigParser\bin\Debug\WebConfigParser.exe.config
+F:\Learning\src\WebConfigParser\WebConfigParser\WebConfigParser\bin\Debug\WebConfigParser.exe
+F:\Learning\src\WebConfigParser\WebConfigParser\WebConfigParser\bin\Debug\WebConfigParser.pdb
+F:\Learning\src\WebConfigParser\WebConfigParser\WebConfigParser\obj\Debug\WebConfigParser.csprojResolveAssemblyReference.cache
+F:\Learning\src\WebConfigParser\WebConfigParser\WebConfigParser\obj\Debug\WebConfigParser.exe
+F:\Learning\src\WebConfigParser\WebConfigParser\WebConfigParser\obj\Debug\WebConfigParser.pdb
