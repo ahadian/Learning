@@ -1,0 +1,6 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Debug\Common.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Debug\Common.pdb
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Debug\MongoDB.Bson.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Debug\MongoDB.Bson.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\obj\Debug\Common.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\obj\Debug\Common.pdb

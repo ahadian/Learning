@@ -14,6 +14,8 @@ namespace MongoDbRnd.MakeUpClass
         public string PropertyName { get; set; }
         public string Value { get; set; } // value can be deserailized to GetFilteredQuery based on filterType
 
+        public string Operator { get; set; }
+
         public FilterType FilterType { get; set; }
     }
     public class GetFilteredQuery 

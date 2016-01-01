@@ -1,0 +1,2 @@
+﻿"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" --config "C:\mongodb\mongod.conf" --storageEngine mmapv1 --install
+"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" --smallfiles --config "C:\mongodb\mongod.conf" --storageEngine mmapv1 --install

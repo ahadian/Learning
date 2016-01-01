@@ -1,0 +1,10 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\bin\Release\Repository.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\bin\Release\Repository.pdb
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\bin\Release\MongoDB.Bson.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\bin\Release\MongoDB.Driver.Core.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\bin\Release\MongoDB.Driver.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\bin\Release\MongoDB.Bson.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\bin\Release\MongoDB.Driver.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\obj\Release\Repository.csprojResolveAssemblyReference.cache
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\obj\Release\Repository.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Repository\obj\Release\Repository.pdb

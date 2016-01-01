@@ -14,13 +14,8 @@ namespace MongoDbRnd.Controllers
         [HttpPost]
         public HttpResponseMessage GetFiltered(GetFilteredQuery query)
         {
-
-            return this.Request.CreateResponse(new DataQueryRepository().GetFiltered(query.EntityName,),HttpStatusCode.Accepted);
+            return null;
+            //return this.Request.CreateResponse(new DataQueryRepository().GetFiltered(query.EntityName,),HttpStatusCode.Accepted);
         }
-    }
-
-    public class DataQueryRepository()
-    {
-        
     }
 }

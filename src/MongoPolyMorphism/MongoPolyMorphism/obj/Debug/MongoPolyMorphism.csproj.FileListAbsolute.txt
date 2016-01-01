@@ -1,0 +1,1 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\MongoPolyMorphism\bin\Debug\MongoPolyMorphism.exe.config

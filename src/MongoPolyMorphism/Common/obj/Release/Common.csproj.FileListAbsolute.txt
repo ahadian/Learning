@@ -1,0 +1,7 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Release\Common.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Release\Common.pdb
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Release\MongoDB.Bson.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\bin\Release\MongoDB.Bson.xml
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\obj\Release\Common.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\Common\obj\Release\Common.pdb

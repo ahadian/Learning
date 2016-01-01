@@ -1,0 +1,5 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\MongoPolyMorphism\bin\Debug\MongoPolyMorphism.exe.config
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\MongoPolyMorphism\bin\Debug\MongoPolyMorphism.exe
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\MongoPolyMorphism\bin\Debug\MongoPolyMorphism.pdb
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\MongoPolyMorphism\obj\Debug\MongoPolyMorphism.exe
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\MongoPolyMorphism\obj\Debug\MongoPolyMorphism.pdb

@@ -1,0 +1,5 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\WebService.Tests\bin\Debug\WebService.Tests.dll.config
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\WebService.Tests\bin\Debug\WebService.Tests.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\WebService.Tests\bin\Debug\WebService.Tests.pdb
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\WebService.Tests\obj\Debug\WebService.Tests.dll
+G:\DEV WORKS\GitHub\Learning\src\MongoPolyMorphism\WebService.Tests\obj\Debug\WebService.Tests.pdb
