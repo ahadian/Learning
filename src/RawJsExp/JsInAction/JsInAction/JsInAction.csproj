@@ -14,7 +14,7 @@
     <RootNamespace>JsInAction</RootNamespace>
     <AssemblyName>JsInAction</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -91,7 +91,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54146</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54146/</IISUrl>
+          <IISUrl>http://localhost/JsInAction</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

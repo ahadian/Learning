@@ -16,3 +16,21 @@ G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Web
 G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Web.Http.WebHost.xml
 G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\GoodServer\obj\Debug\GoodServer.dll
 G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\GoodServer\obj\Debug\GoodServer.pdb
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\GoodServer.dll.config
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\GoodServer.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\GoodServer.pdb
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\EntityFramework.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\EntityFramework.SqlServer.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\Newtonsoft.Json.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Net.Http.Formatting.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Web.Http.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Web.Http.WebHost.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\EntityFramework.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\EntityFramework.SqlServer.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\Newtonsoft.Json.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Net.Http.Formatting.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Web.Http.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\bin\System.Web.Http.WebHost.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\obj\Debug\GoodServer.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\obj\Debug\GoodServer.pdb
+F:\Learning\src\XSS_ATTACK\GoodServer\GoodServer\obj\Debug\GoodServer.csprojResolveAssemblyReference.cache

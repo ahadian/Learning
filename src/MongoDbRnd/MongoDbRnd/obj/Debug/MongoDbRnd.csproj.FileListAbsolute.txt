@@ -1,14 +1,19 @@
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.csprojResolveAssemblyReference.cache
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.dll.config
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.dll
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.pdb
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\Newtonsoft.Json.dll
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Net.Http.Formatting.dll
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.dll
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.WebHost.dll
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\Newtonsoft.Json.xml
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Net.Http.Formatting.xml
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.xml
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.WebHost.xml
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.dll
-G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.pdb
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.dll.config
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDbRnd.pdb
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDB.Bson.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDB.Driver.Core.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDB.Driver.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\Newtonsoft.Json.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Net.Http.Formatting.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.WebHost.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDB.Bson.xml
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\MongoDB.Driver.xml
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\Newtonsoft.Json.xml
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Net.Http.Formatting.xml
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.xml
+F:\Learning\src\MongoDbRnd\MongoDbRnd\bin\System.Web.Http.WebHost.xml
+F:\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.csprojResolveAssemblyReference.cache
+F:\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.dll
+F:\Learning\src\MongoDbRnd\MongoDbRnd\obj\Debug\MongoDbRnd.pdb

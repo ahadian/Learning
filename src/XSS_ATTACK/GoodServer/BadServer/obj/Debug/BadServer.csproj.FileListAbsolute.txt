@@ -12,3 +12,17 @@ G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.
 G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.csprojResolveAssemblyReference.cache
 G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.dll
 G:\DEV WORKS\GitHub\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.pdb
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\BadServer.dll.config
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\BadServer.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\BadServer.pdb
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\Newtonsoft.Json.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Net.Http.Formatting.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.WebHost.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\Newtonsoft.Json.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Net.Http.Formatting.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\bin\System.Web.Http.WebHost.xml
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.dll
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.pdb
+F:\Learning\src\XSS_ATTACK\GoodServer\BadServer\obj\Debug\BadServer.csprojResolveAssemblyReference.cache

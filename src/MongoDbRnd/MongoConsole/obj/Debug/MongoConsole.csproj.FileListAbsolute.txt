@@ -1,0 +1,13 @@
+F:\Learning\src\MongoDbRnd\MongoConsole\obj\Debug\MongoConsole.csprojResolveAssemblyReference.cache
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoConsole.exe.config
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoConsole.exe
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoConsole.pdb
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoDB.Bson.dll
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoDB.Driver.Core.dll
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoDB.Driver.dll
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\Newtonsoft.Json.dll
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoDB.Bson.xml
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\MongoDB.Driver.xml
+F:\Learning\src\MongoDbRnd\MongoConsole\bin\Debug\Newtonsoft.Json.xml
+F:\Learning\src\MongoDbRnd\MongoConsole\obj\Debug\MongoConsole.exe
+F:\Learning\src\MongoDbRnd\MongoConsole\obj\Debug\MongoConsole.pdb
