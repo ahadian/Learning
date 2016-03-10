@@ -1,0 +1,14 @@
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\DateRnD.dll.config
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\DateRnD.dll
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\DateRnD.pdb
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\Newtonsoft.Json.dll
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\System.Net.Http.Formatting.dll
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\System.Web.Http.dll
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\System.Web.Http.WebHost.dll
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\Newtonsoft.Json.xml
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\System.Net.Http.Formatting.xml
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\System.Web.Http.xml
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\bin\System.Web.Http.WebHost.xml
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\obj\Debug\DateRnD.csprojResolveAssemblyReference.cache
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\obj\Debug\DateRnD.dll
+G:\DEV WORKS\GitHub\Learning\src\DateRnD\DateRnD\obj\Debug\DateRnD.pdb
