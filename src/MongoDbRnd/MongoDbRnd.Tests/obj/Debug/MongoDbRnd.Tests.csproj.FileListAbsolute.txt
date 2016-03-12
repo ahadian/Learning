@@ -1,0 +1,1 @@
+G:\DEV WORKS\GitHub\Learning\src\MongoDbRnd\MongoDbRnd.Tests\obj\Debug\MongoDbRnd.Tests.csprojResolveAssemblyReference.cache
