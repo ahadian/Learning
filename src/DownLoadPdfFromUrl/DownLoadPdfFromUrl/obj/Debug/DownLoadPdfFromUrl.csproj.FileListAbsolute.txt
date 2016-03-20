@@ -1,0 +1,6 @@
+G:\DEV WORKS\GitHub\Learning\src\DownLoadPdfFromUrl\DownLoadPdfFromUrl\bin\Debug\DownLoadPdfFromUrl.exe.config
+G:\DEV WORKS\GitHub\Learning\src\DownLoadPdfFromUrl\DownLoadPdfFromUrl\bin\Debug\DownLoadPdfFromUrl.exe
+G:\DEV WORKS\GitHub\Learning\src\DownLoadPdfFromUrl\DownLoadPdfFromUrl\bin\Debug\DownLoadPdfFromUrl.pdb
+G:\DEV WORKS\GitHub\Learning\src\DownLoadPdfFromUrl\DownLoadPdfFromUrl\obj\Debug\DownLoadPdfFromUrl.csprojResolveAssemblyReference.cache
+G:\DEV WORKS\GitHub\Learning\src\DownLoadPdfFromUrl\DownLoadPdfFromUrl\obj\Debug\DownLoadPdfFromUrl.exe
+G:\DEV WORKS\GitHub\Learning\src\DownLoadPdfFromUrl\DownLoadPdfFromUrl\obj\Debug\DownLoadPdfFromUrl.pdb
