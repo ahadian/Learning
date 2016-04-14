@@ -1,0 +1,15 @@
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\FreeSound.exe.config
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\FreeSound.exe
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\FreeSound.pdb
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\obj\Debug\FreeSound.csprojResolveAssemblyReference.cache
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\obj\Debug\FreeSound.exe
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\obj\Debug\FreeSound.pdb
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\Newtonsoft.Json.dll
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\Newtonsoft.Json.xml
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Bson.dll
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Driver.Core.dll
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Driver.dll
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Bson.xml
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Driver.xml
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\Common.dll
+G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\Common.pdb
