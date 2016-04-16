@@ -38,6 +38,14 @@ namespace FreeSound
             return sound.FirstOrDefault();
         }
 
+        public bool SoundExists(Sound sound)
+        {
+            var collection = _database.GetCollection<Sound>("Sounds");
+            var filter = Builders<Sound>.Filter.Eq("_id", sound.id);
+            var result = collection.Find(filter).Limit(1).Count();
+            return result != 0;
+        }
+
         public void MarkSoundAsDownloaded(Sound sound)
         {
             var collection = _database.GetCollection<Sound>("Sounds");

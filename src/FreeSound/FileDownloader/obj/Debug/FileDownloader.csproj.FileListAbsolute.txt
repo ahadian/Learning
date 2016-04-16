@@ -17,3 +17,22 @@ G:\DEV WORKS\GitHub\Learning\src\FreeSound\FileDownloader\bin\Debug\System.Net.H
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\FileDownloader\bin\Debug\System.Web.Http.xml
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Driver.xml
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Bson.xml
+F:\Learning\src\FreeSound\FileDownloader\obj\Debug\FileDownloader.csprojResolveAssemblyReference.cache
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\FileDownloader.exe.config
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\FileDownloader.exe
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\FileDownloader.pdb
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\Common.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\Newtonsoft.Json.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\System.Net.Http.Formatting.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\System.Web.Http.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Driver.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Bson.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Driver.Core.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\Common.pdb
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\Newtonsoft.Json.xml
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\System.Net.Http.Formatting.xml
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\System.Web.Http.xml
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Driver.xml
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Bson.xml
+F:\Learning\src\FreeSound\FileDownloader\obj\Debug\FileDownloader.exe
+F:\Learning\src\FreeSound\FileDownloader\obj\Debug\FileDownloader.pdb

@@ -11,6 +11,11 @@ namespace FreeSound
     {
         [BsonId]
         public string ItemId { get; set; }
+
         public string Tag { get; set; }
+
+        public string Status { get; set; }
+
+        public int NumberOfItemsToDownload { get; set; }
     }
 }

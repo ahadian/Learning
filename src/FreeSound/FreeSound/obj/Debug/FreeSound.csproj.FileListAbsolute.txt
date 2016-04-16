@@ -13,3 +13,18 @@ G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Bson.xml
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Driver.xml
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\Common.dll
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\FreeSound\bin\Debug\Common.pdb
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\FreeSound.exe.config
+F:\Learning\src\FreeSound\FreeSound\obj\Debug\FreeSound.csprojResolveAssemblyReference.cache
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\FreeSound.exe
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\FreeSound.pdb
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\Common.dll
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\Newtonsoft.Json.dll
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Driver.dll
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Bson.dll
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Driver.Core.dll
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\Common.pdb
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\Newtonsoft.Json.xml
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Driver.xml
+F:\Learning\src\FreeSound\FreeSound\bin\Debug\MongoDB.Bson.xml
+F:\Learning\src\FreeSound\FreeSound\obj\Debug\FreeSound.exe
+F:\Learning\src\FreeSound\FreeSound\obj\Debug\FreeSound.pdb

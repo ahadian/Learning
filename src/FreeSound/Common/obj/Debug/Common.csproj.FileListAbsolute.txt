@@ -15,3 +15,19 @@ G:\DEV WORKS\GitHub\Learning\src\FreeSound\Common\bin\Debug\System.Web.Http.xml
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\Common\obj\Debug\Common.dll
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\Common\obj\Debug\Common.pdb
 G:\DEV WORKS\GitHub\Learning\src\FreeSound\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+F:\Learning\src\FreeSound\Common\bin\Debug\Common.dll.config
+F:\Learning\src\FreeSound\Common\bin\Debug\Common.dll
+F:\Learning\src\FreeSound\Common\bin\Debug\Common.pdb
+F:\Learning\src\FreeSound\Common\bin\Debug\MongoDB.Bson.dll
+F:\Learning\src\FreeSound\Common\bin\Debug\MongoDB.Driver.Core.dll
+F:\Learning\src\FreeSound\Common\bin\Debug\MongoDB.Driver.dll
+F:\Learning\src\FreeSound\Common\bin\Debug\Newtonsoft.Json.dll
+F:\Learning\src\FreeSound\Common\bin\Debug\System.Net.Http.Formatting.dll
+F:\Learning\src\FreeSound\Common\bin\Debug\System.Web.Http.dll
+F:\Learning\src\FreeSound\Common\bin\Debug\MongoDB.Bson.xml
+F:\Learning\src\FreeSound\Common\bin\Debug\MongoDB.Driver.xml
+F:\Learning\src\FreeSound\Common\bin\Debug\Newtonsoft.Json.xml
+F:\Learning\src\FreeSound\Common\bin\Debug\System.Net.Http.Formatting.xml
+F:\Learning\src\FreeSound\Common\bin\Debug\System.Web.Http.xml
+F:\Learning\src\FreeSound\Common\obj\Debug\Common.dll
+F:\Learning\src\FreeSound\Common\obj\Debug\Common.pdb
