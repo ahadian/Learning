@@ -62,7 +62,7 @@ namespace FreeSound
                         MediaTypes.ApplicationXUrlEncoded);
 
                         HttpRequestMessage getData = restClient.CreateHttpRequest();
-                        Console.WriteLine("Preparing Request with Uri = {0} and Credentials = {1}", JsonConvert.SerializeObject(getData), JsonConvert.SerializeObject(Authentication.idendity));
+                        Console.WriteLine("Preparing Request with Uri = {0} and Credentials = {1}", getData.RequestUri, JsonConvert.SerializeObject(Authentication.idendity));
                         HttpClient client = new HttpClient();
                         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Authentication.idendity.access_token);
                         var response = client.SendAsync(getData).Result;
@@ -89,7 +89,8 @@ namespace FreeSound
                         }
                         else
                         {
-                            //break;
+                            new DataContext().ArchiveJob(job);
+                            break;
                         }
                         if (debugMode) return;
                         if (pageNumber > 1 && totalSongsFound % 1500 == 1)

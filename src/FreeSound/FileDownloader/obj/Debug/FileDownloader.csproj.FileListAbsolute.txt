@@ -36,3 +36,5 @@ F:\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Driver.xml
 F:\Learning\src\FreeSound\FileDownloader\bin\Debug\MongoDB.Bson.xml
 F:\Learning\src\FreeSound\FileDownloader\obj\Debug\FileDownloader.exe
 F:\Learning\src\FreeSound\FileDownloader\obj\Debug\FileDownloader.pdb
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\log4net.dll
+F:\Learning\src\FreeSound\FileDownloader\bin\Debug\log4net.xml
