@@ -1,0 +1,1 @@
+F:\selise-app-suite-v2\Trunk\Main\Source\Selise.AppSuite_v1\PlayingWitthRabbitMQ\ProducerApp_One\bin\Debug\ProducerApp_One.exe.config
