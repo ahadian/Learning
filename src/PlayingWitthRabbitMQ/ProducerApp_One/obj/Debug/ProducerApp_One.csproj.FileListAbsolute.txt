@@ -1,1 +1,9 @@
 F:\selise-app-suite-v2\Trunk\Main\Source\Selise.AppSuite_v1\PlayingWitthRabbitMQ\ProducerApp_One\bin\Debug\ProducerApp_One.exe.config
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\bin\Debug\ProducerApp_One.exe.config
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\bin\Debug\ProducerApp_One.exe
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\bin\Debug\ProducerApp_One.pdb
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\bin\Debug\RabbitMQ.Client.dll
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\bin\Debug\RabbitMQ.Client.xml
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\obj\Debug\ProducerApp_One.csprojResolveAssemblyReference.cache
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\obj\Debug\ProducerApp_One.exe
+F:\Learning\src\PlayingWitthRabbitMQ\ProducerApp_One\obj\Debug\ProducerApp_One.pdb

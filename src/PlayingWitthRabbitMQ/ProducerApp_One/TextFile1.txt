@@ -1,0 +1,22 @@
+﻿//var factory = new ConnectionFactory()
+            //{
+            //    HostName = "localhost",
+            //    Port = AmqpTcpEndpoint.UseDefaultPort,
+            //    VirtualHost = "/",
+            //    Protocol = Protocols.DefaultProtocol,
+            //};
+            //using (var connection = factory.CreateConnection())
+            //{
+            //    using (var channel = connection.CreateModel())
+            //    {
+            //        channel.QueueDeclare(queue: "ABC_Q", durable: true, exclusive: false, autoDelete: false,
+            //            arguments: null);
+
+            //        var jsonMessage = "simple message";
+
+            //        var body = Encoding.UTF8.GetBytes(jsonMessage);
+
+            //        channel.BasicPublish(exchange: string.Empty, routingKey: "ABC_Q", basicProperties: null,
+            //            body: body);
+            //    }
+            //}
