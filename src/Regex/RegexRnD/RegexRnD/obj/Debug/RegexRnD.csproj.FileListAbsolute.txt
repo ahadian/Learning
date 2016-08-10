@@ -1,0 +1,6 @@
+F:\Learning\src\Regex\RegexRnD\RegexRnD\bin\Debug\RegexRnD.exe.config
+F:\Learning\src\Regex\RegexRnD\RegexRnD\bin\Debug\RegexRnD.exe
+F:\Learning\src\Regex\RegexRnD\RegexRnD\bin\Debug\RegexRnD.pdb
+F:\Learning\src\Regex\RegexRnD\RegexRnD\obj\Debug\RegexRnD.csprojResolveAssemblyReference.cache
+F:\Learning\src\Regex\RegexRnD\RegexRnD\obj\Debug\RegexRnD.exe
+F:\Learning\src\Regex\RegexRnD\RegexRnD\obj\Debug\RegexRnD.pdb
