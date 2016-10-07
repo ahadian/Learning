@@ -13,7 +13,6 @@ namespace DbBackUp
         public void Runtask(T mongoTask)
         {
             mongoTask.TakeInput();
-            mongoTask.BuildTask();
             mongoTask.PeroformTask();
             mongoTask.ProduceOutput();
         }

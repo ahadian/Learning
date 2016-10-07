@@ -39,7 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITaskRunner.cs" />
+    <Compile Include="IMongoTask.cs" />
+    <Compile Include="IMongoTaskRunner.cs" />
     <Compile Include="MongoCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

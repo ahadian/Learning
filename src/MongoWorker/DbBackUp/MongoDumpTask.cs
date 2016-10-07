@@ -15,11 +15,44 @@ namespace DbBackUp
         public MongoDumpTask()
         {
             this.InitServer();
-            this.mongoDumpCommand = new MongoDumpCommand();
-            this.mongoDumpCommand.Host = this.MongoCommand.Host;
-            this.mongoDumpCommand.Port = this.MongoCommand.Port;
+            this.mongoDumpCommand = new MongoDumpCommand {Host = this.MongoCommand.Host, Port = this.MongoCommand.Port};
         }
         public override void TakeInput()
+        {
+            this.ReadDirectory();
+            this.ReadDatabaseName();
+            this.ReadCollectionName();
+        }
+
+        public override void PeroformTask()
+        {
+            Process process = new Process();
+            process.StartInfo.FileName = this.GetProcessName();
+            process.StartInfo.Arguments = this.mongoDumpCommand.BuildCommand();
+            //process.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
+            process.Start();
+            process.WaitForExit();
+        }
+
+        public override void ProduceOutput()
+        {
+            Console.WriteLine("Your dump has been taken in directory = {0}", this.mongoDumpCommand.OutputDirectory);
+            Console.ReadLine();
+        }
+
+        private void ReadCollectionName()
+        {
+            Console.WriteLine("Enter Collection Name : ");
+            this.mongoDumpCommand.CollectionName = Console.ReadLine();
+        }
+
+        private void ReadDatabaseName()
+        {
+            Console.WriteLine("Enter Database Name : ");
+            this.mongoDumpCommand.DatabaseName = Console.ReadLine();
+        }
+
+        private void ReadDirectory()
         {
             Console.WriteLine("Enter Output Directory : ");
             this.mongoDumpCommand.OutputDirectory = Console.ReadLine();
@@ -35,34 +68,19 @@ namespace DbBackUp
                     throw ex;// codesmell once you catch you can not throw it :|
                 }
             }
-
-            Console.WriteLine("Enter Database Name : ");
-            this.mongoDumpCommand.DatabaseName = Console.ReadLine();
-
-            Console.WriteLine("Enter Collection Name : ");
-            this.mongoDumpCommand.CollectionName = Console.ReadLine();
         }
 
-        public override void BuildTask()
+        private string GetProcessName()
         {
-            //throw new NotImplementedException();
-        }
-
-        public override void PeroformTask()
-        {
-            Process process = new Process();
-            process.StartInfo.FileName = @"C:\Program Files\MongoDB\Server\3.2\bin\mongodump.exe";
-            string cmd = this.mongoDumpCommand.BuildCommand();
-            process.StartInfo.Arguments = this.mongoDumpCommand.BuildCommand();//string.Format("--host {0} --port {1} --out {2}", this.mongoDumpCommand.Host, this.mongoDumpCommand.Port, this.mongoDumpCommand.OutputDirectory);//\"E:\\Mogno_back_up_for_hamim_vai2\"
-            //process.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
-            process.Start();
-            process.WaitForExit();// Waits here for the process to exit.
-        }
-
-        public override void ProduceOutput()
-        {
-            Console.WriteLine("Your dump has been taken in directory = {0}", this.mongoDumpCommand.OutputDirectory);
-            //throw new NotImplementedException();
+            string dir = @"C:\Program Files\MongoDB\Server\3.2\bin\"; // Codesmell : should come form a config file
+            string processName = "mongodump.exe";
+            string fileName = string.Format(@"{0}{1}", dir, processName);
+            if (!File.Exists(fileName))
+            {
+                Console.WriteLine("{0} not found in = {1}.", processName, dir);
+                throw new Exception();
+            }
+            return fileName;
         }
     }
 }

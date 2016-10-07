@@ -3,3 +3,8 @@ F:\LearningBackend\MongoWorker\Infrastructure\bin\Debug\Infrastructure.pdb
 F:\LearningBackend\MongoWorker\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
 F:\LearningBackend\MongoWorker\Infrastructure\obj\Debug\Infrastructure.dll
 F:\LearningBackend\MongoWorker\Infrastructure\obj\Debug\Infrastructure.pdb
+F:\Learning\src\MongoWorker\Infrastructure\bin\Debug\Infrastructure.dll
+F:\Learning\src\MongoWorker\Infrastructure\bin\Debug\Infrastructure.pdb
+F:\Learning\src\MongoWorker\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+F:\Learning\src\MongoWorker\Infrastructure\obj\Debug\Infrastructure.dll
+F:\Learning\src\MongoWorker\Infrastructure\obj\Debug\Infrastructure.pdb
