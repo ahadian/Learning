@@ -1,0 +1,16 @@
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoWorker.exe.config
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoWorker.exe
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoWorker.pdb
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoDB.Bson.dll
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoDB.Driver.Core.dll
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoDB.Driver.dll
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoDB.Bson.xml
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoDB.Driver.xml
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\MongoDB.Driver.Core.xml
+F:\LearningBackend\MongoWorker\MongoWorker\obj\Debug\MongoWorker.exe
+F:\LearningBackend\MongoWorker\MongoWorker\obj\Debug\MongoWorker.pdb
+F:\LearningBackend\MongoWorker\MongoWorker\obj\Debug\MongoWorker.csprojResolveAssemblyReference.cache
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\DbBackUp.dll
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\Infrastructure.dll
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\DbBackUp.pdb
+F:\LearningBackend\MongoWorker\MongoWorker\bin\Debug\Infrastructure.pdb

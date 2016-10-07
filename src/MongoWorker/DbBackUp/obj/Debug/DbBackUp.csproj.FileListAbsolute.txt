@@ -1,0 +1,7 @@
+F:\LearningBackend\MongoWorker\DbBackUp\bin\Debug\DbBackUp.dll
+F:\LearningBackend\MongoWorker\DbBackUp\bin\Debug\DbBackUp.pdb
+F:\LearningBackend\MongoWorker\DbBackUp\bin\Debug\Infrastructure.dll
+F:\LearningBackend\MongoWorker\DbBackUp\bin\Debug\Infrastructure.pdb
+F:\LearningBackend\MongoWorker\DbBackUp\obj\Debug\DbBackUp.csprojResolveAssemblyReference.cache
+F:\LearningBackend\MongoWorker\DbBackUp\obj\Debug\DbBackUp.dll
+F:\LearningBackend\MongoWorker\DbBackUp\obj\Debug\DbBackUp.pdb
