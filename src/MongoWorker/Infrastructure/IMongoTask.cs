@@ -5,7 +5,12 @@ namespace Infrastructure
 {
     public abstract class IMongoTask
     {
+        protected IMongoTask()
+        {
+            this.InitServer();
+        }
         protected MongoCommand MongoCommand { get; private set; }
+        // enforcement missing
 
         protected void InitServer()
         {
@@ -18,6 +23,7 @@ namespace Infrastructure
             int.TryParse(p, out port);
             if (port != 0) this.MongoCommand.Port = port;
         }
+
         public abstract void TakeInput();
 
         public abstract void PeroformTask();

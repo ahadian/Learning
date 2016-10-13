@@ -1,0 +1,15 @@
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\DdSmartMigration_.dll
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\DdSmartMigration_.pdb
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\Infrastructure.dll
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\MongoDB.Bson.dll
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\MongoDB.Driver.Core.dll
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\MongoDB.Driver.dll
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\Newtonsoft.Json.dll
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\Infrastructure.pdb
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\MongoDB.Bson.xml
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\MongoDB.Driver.xml
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\MongoDB.Driver.Core.xml
+F:\Learning\src\MongoWorker\DdSmartMigration_\bin\Debug\Newtonsoft.Json.xml
+F:\Learning\src\MongoWorker\DdSmartMigration_\obj\Debug\DdSmartMigration_.csprojResolveAssemblyReference.cache
+F:\Learning\src\MongoWorker\DdSmartMigration_\obj\Debug\DdSmartMigration_.dll
+F:\Learning\src\MongoWorker\DdSmartMigration_\obj\Debug\DdSmartMigration_.pdb

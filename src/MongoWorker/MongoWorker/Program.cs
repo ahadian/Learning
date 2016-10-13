@@ -30,6 +30,16 @@ namespace MongoWorker
                 mongoTaskRunner = new MongoDumpTaskRunner<IMongoTask>();
                 mongoTaskRunner.Runtask(mongoTask);
             }
+            else if ("2".Equals(commnad))
+            {
+                mongoTask = new MongoRestoreTask();
+                mongoTaskRunner = new MongoRestoreTaskRunner<IMongoTask>();
+                mongoTaskRunner.Runtask(mongoTask);
+            }
+            else if ("3".Equals(commnad))
+            {
+                
+            }
         }
     }
 }

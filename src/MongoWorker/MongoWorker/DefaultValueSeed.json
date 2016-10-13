@@ -1,0 +1,44 @@
+﻿[
+    {
+        "CollectionName": "zzNajimTestDb",
+        "MongoQuery": "{\"_id\":\"1\"}",
+        //"MongoQuery": "{\"_id\" : \"E4F0B242-D6B9-42F8-A70E-300CDF608A08\"}","DoubleField":2.189
+        "Changes": [
+            {
+                "PropertyName": "IntField",
+                "Type": "int",
+                "Value": "1"
+            },
+            {
+                "PropertyName": "StringField",
+                "Type": "string",
+                "Value": "2"
+            },
+            {
+                "PropertyName": "DateField",
+                "Type": "date",
+                "Value": "2014-05-14T15:31:13.269Z"
+            },
+            {
+                "PropertyName": "DateFieldUTC",
+                "Type": "date",
+                "Value": "utc"
+            },
+            {
+                "PropertyName": "IntArry",
+                "Type": "int[]",
+                "Value": "[1,2,3]"
+            },
+            {
+                "PropertyName": "StringArray",
+                "Type": "string[]",
+                "Value": "[\"PP\",\"QQ\"]"
+            },
+            {
+                "PropertyName": "DoubleField",
+                "Type": "double",
+                "Value": "3.1416"
+            }
+        ]
+    }
+]

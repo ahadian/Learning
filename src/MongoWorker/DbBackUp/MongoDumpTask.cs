@@ -14,7 +14,6 @@ namespace DbBackUp
         private MongoDumpCommand mongoDumpCommand;
         public MongoDumpTask()
         {
-            this.InitServer();
             this.mongoDumpCommand = new MongoDumpCommand {Host = this.MongoCommand.Host, Port = this.MongoCommand.Port};
         }
         public override void TakeInput()

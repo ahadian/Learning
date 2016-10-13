@@ -14,15 +14,14 @@ namespace DbBackUp
 
         public string CollectionName { get; set; }
 
-        private const string FullDump = "--host {0} --port {1} --out {2}";
-        private const string DumpADatabase = "--host {0} --port {1} --db {2} --out {3}";
-        private const string DumpACollection = "--host {0} --port {1} --db {2} --collection {3} --out {4}";
+        private const string Fullrestore = "--host {0} --port {1} --out {2}";
+        private const string RestoreADatabase = "--host {0} --port {1} --db {2} --out {3}";
+        private const string RestoreACollection = "--host {0} --port {1} --db {2} --collection {3} --out {4}";
         public override string BuildCommand()
         {
-            if ("*".Equals(this.DatabaseName)) return string.Format(FullDump, this.Host, this.Port, this.OutputDirectory);
-            if ("*".Equals(this.CollectionName)) return string.Format(DumpADatabase, this.Host, this.Port, this.DatabaseName, this.OutputDirectory);
-            return string.Format(DumpACollection, this.Host, this.Port, this.DatabaseName, this.CollectionName, this.OutputDirectory);
+            if ("*".Equals(this.DatabaseName)) return string.Format(Fullrestore, this.Host, this.Port, this.OutputDirectory);
+            if ("*".Equals(this.CollectionName)) return string.Format(RestoreADatabase, this.Host, this.Port, this.DatabaseName, this.OutputDirectory);
+            return string.Format(RestoreACollection, this.Host, this.Port, this.DatabaseName, this.CollectionName, this.OutputDirectory);
         }
     }
-
 }

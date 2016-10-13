@@ -58,12 +58,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Business.docx" />
+    <None Include="DefaultValueSeed.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DbBackUp\DbBackUp.csproj">
       <Project>{6E16EBBC-FE1F-4DA9-81F8-B704D1F520A9}</Project>
       <Name>DbBackUp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DbRestore\DbRestore.csproj">
+      <Project>{D098AA8C-5887-4217-98CE-93471C12D6D0}</Project>
+      <Name>DbRestore</Name>
     </ProjectReference>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{FE0104B0-44C3-4BEE-AD8F-2DE608952939}</Project>

@@ -1,0 +1,1 @@
+F:\Learning\src\MongoWorker\DdSmartMigration_\obj\Debug\DbSmartMigration.csprojResolveAssemblyReference.cache
