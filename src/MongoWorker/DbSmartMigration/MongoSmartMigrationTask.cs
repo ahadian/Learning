@@ -14,9 +14,9 @@ namespace DbSmartMigration
     {
         [BsonElement("name")]
         public string Name { get; set; }
-        //[BsonElement("sizeOnDisk")]
+        [BsonElement("sizeOnDisk")]
         public double SizeOnDisk { get; set; }
-        //[BsonElement("empty")]
+        [BsonElement("empty")]
         public bool Empty { get; set; }
     }
 
@@ -38,9 +38,6 @@ namespace DbSmartMigration
 
         public override void TakeInput()
         {
-            this.ReadDirectory();
-            this.ReadDatabaseName();
-            this.ReadCollectionName();
         }
 
         public override void PeroformTask()
@@ -126,12 +123,6 @@ namespace DbSmartMigration
         {
             Console.WriteLine("Enter Database Name : ");
             this.mongoSmartMigrationCommand.DatabaseName = Console.ReadLine();
-        }
-
-        private void ReadDirectory()
-        {
-            Console.WriteLine("Enter Output Directory (Or a BSON File to restore a specific collection): ");
-            this.mongoSmartMigrationCommand.OutputDirectory = Console.ReadLine();
         }
 
         private string GetProcessName()

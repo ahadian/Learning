@@ -44,6 +44,10 @@
       <HintPath>..\packages\MongoDB.Driver.Core.2.3.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Selise.AppSuite.DataDefination.Core, Version=1.0.0.62, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selise.AppSuite.DataDefination.Core.1.0.0.62\lib\net45\Selise.AppSuite.DataDefination.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleRun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -72,6 +77,10 @@
     <ProjectReference Include="..\DbRestore\DbRestore.csproj">
       <Project>{D098AA8C-5887-4217-98CE-93471C12D6D0}</Project>
       <Name>DbRestore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DbSmartMigration\DbSmartMigration.csproj">
+      <Project>{74333C5D-4973-4F3B-92B5-76D357FB2ECB}</Project>
+      <Name>DbSmartMigration</Name>
     </ProjectReference>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{FE0104B0-44C3-4BEE-AD8F-2DE608952939}</Project>

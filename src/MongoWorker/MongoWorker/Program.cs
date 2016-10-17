@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DbBackUp;
+using DbSmartMigration;
 using Infrastructure;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
@@ -21,6 +22,7 @@ namespace MongoWorker
             Console.WriteLine("1. Dump");
             Console.WriteLine("2. Restore");
             Console.WriteLine("3. Create a new Tenant");
+            Console.WriteLine("4. Run Smart Migration");
             IMongoTask mongoTask;
             IMongoTaskRunner<IMongoTask> mongoTaskRunner;
             string commnad = Console.ReadLine();
@@ -38,7 +40,17 @@ namespace MongoWorker
             }
             else if ("3".Equals(commnad))
             {
-                
+                new ConsoleRun().RunForestRun();
+            }
+            else if ("4".Equals(commnad))
+            {
+                mongoTask = new MongoSmartMigrationTask();
+                mongoTaskRunner = new MongoSmartMigrationTaskRunner<IMongoTask>();
+                mongoTaskRunner.Runtask(mongoTask);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Option....");
             }
         }
     }
